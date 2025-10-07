@@ -1,0 +1,214 @@
+# Meta-analisi {#sec-Cap.2}
+
+## Introduzione {#sec-Intro_Cap.2}
+
+In questo capitolo vengono descritte le principali caratteristiche delle meta-analisi. Saranno inoltre approfonditi gli indici di *effect size* più diffusi in ambito psicologico e i principali indici di eterogeneità. Infine, saranno discussi i maggiori limiti e le future prospettive del metodo meta-analitico.
+
+## Definizione, procedura e obiettivi di una meta-analisi {#sec-Par.1_Cap.2}
+
+Come discusso nel @sec-Cap.1, difficilmente una singola ricerca è sufficiente per confermare o confutare l'esistenza di un fenomeno [@opensciencecollaboration2015; @nichols2021; @errington2021]. Per far avanzare l'accumulazione della conoscenza in ambito scientifico, dunque, è quasi sempre necessario integrare e valutare i risultati provenienti da più studi. Per questo motivo, la meta-analisi rappresenta uno degli strumenti più diffusi nell'ambito della ricerca scientifica [@borenstein2009].
+
+La *meta-analisi*, infatti, è una sintesi quantitativa dei risultati provenienti da più studi primari [@borenstein2009] e permette di ottenere una stima più precisa dell'effetto del fenomeno preso in considerazione [@gambarota2024; @errington2021]. Attraverso una meta-analisi, dunque, è possibile valutare se l'effetto indagato dai diversi studi sia coerente o meno e, in caso, quanto varii e quali siano le variabili in grado di spiegare questa eventuale variabilità [@borenstein2009].
+
+Affinché una meta-analisi risulti realmente informativa è necessario che essa sia svolta su studi che indagano lo stesso effetto attraverso disegni sperimentali simili o coerenti e che, inoltre, tali studi siano raccolti e selezionati in modo sistematico e trasparente [@borenstein2009]. Il primo passo, quindi, per lo svolgimento di una meta-analisi consiste nel condurre una rassegna sistematica della letteratura (*systematic review*) [@borenstein2009].
+
+La *systematic review* è una modalità di raccolta e selezione di studi che prevede una serie di criteri di selezione trasparente, precisa e scelta a priori [@borenstein2009; @crocetti2016]. Nella pratica, ciò consiste innanzitutto nel definire in modo chiaro e motivato la domanda di ricerca e i criteri di inclusione ed esclusione degli studi all'interno della rassegna [@crocetti2016]. Successivamente, si selezionano gli studi primari che soddisfano i criteri selezionati precedentemente, i quali formeranno poi la popolazione oggetto della sintesi meta-analitica. Infine, vengono estrapolate le informazioni principali dagli studi selezionati, che solitamente sono l'*effect size*, cioè la misura della dimensione dell'effetto preso in considerazione (ad es., il coefficiente di correlazione o il *d* di Cohen), e la sua varianza di stima [@crocetti2016; @gambarota2024]. La *systematic review*, unita alla meta-analisi, consente quindi di ottenere un’analisi statistica oggettiva, trasparente e replicabile delle evidenze relative ad un determinato ambito di ricerca [@borenstein2009].
+
+In seguito, cioè dopo aver selezionato gli studi e prima di condurre la meta-analisi vera e propria, è necessario selezionare il modello meta-analitico di analisi dei dati. I principali modelli sono il *fixed-effect* e il *random-effects model* [@borenstein2009], le cui differenze verranno discusse più approfonditamente in @sec-FixedvRandom .
+
+Infine, è possibile procedere al calcolo del *summary effect*, cioè alla stima del reale *effect size* indagato dai diversi studi presi in considerazione [@borenstein2009], e della relativa varianza di stima. Nella pratica, il *summary effect* è la media ponderata dei singoli *effect size* ottenuti da ciascuno studio incluso nella meta-analisi [@borenstein2009]. Le modalità di calcolo del *summary effect* e l'attribuzione del peso a ciascuno studio saranno affrontati nel paragrafo successivo (@sec-Effect).
+
+Il principale vantaggio delle meta-analisi consiste nel poter valutare quantitativamente la significatività statistica del *summary effect* [@borenstein2009], cioè se l'effetto indagato dai diversi studi sia effettivamente diverso da zero e che quindi esista davvero o meno. La sintesi meta-analitica, poi, offre una stima più precisa dell'*effect size* complessivo, che è più preciso degli effetti riportati dai singoli studi, in quanto frutto di una sintesi calcolata a partire da una maggiore numerosità campionaria [@borenstein2009]. L'indice di *effect size*, inoltre, è anche di per sé più informativo rispetto alla sola significatività statistica (ad es., p \< .05) [@borenstein2009]. Il solo *p-value*, infatti, è indicativo unicamente del fatto che l'effetto preso in considerazione sia diverso da zero; al contrario, l'*effect size* fornisce informazioni anche circa la dimensione dell'effetto, cioè quanto esso si distanzi dallo zero e in che direzione [@borenstein2009]. In ambito psicologico, ciò può essere molto utile ad esempio per valutare l'efficacia clinica di un intervento psicoterapeutico [@James20].
+
+Uno strumento grafico particolarmente utile per rappresentare visivamente i risultati di una meta-analisi è il *forest-plot* [@borenstein2009]. Il *forest-plot* è un grafico che solitamente riporta i singoli studi inclusi nella meta-analisi con relativi *effect-size*, varianza di stima e peso attribuito (vedi ad es., @fig-forestplot). In questa tipologia di grafico i singoli *effect-size* sono tipicamente riprodotti attraverso un quadrato dalla dimensione variabile a seconda del peso di ciascuno studio, mentre la varianza di stima (solitamente riportata attraverso gli intervalli di fiducia) è rappresentata da una linea retta che attraversa il quadrato. Infine, il *summary effect* e la relativa varianza di stima sono rappresentati da un rombo (in cui il *summary effect* è indicato dalla diagonale minore, cioè quella verticale, mentre i relativi intervalli di fiducia da quella maggiore, cioè quella orizzontale).
+
+![*Forest plot* di una meta-analisi di trattamenti CBT vs TAU (Treatment As Usual) per i disturbi d'ansia in giovani tra i 10 e i 25 anni. Evento: remissione dalla diagnosi primaria di disturbo d'ansia [@James20, p. 247].](images/James_DEF.png){#fig-forestplot fig-align="center" width="570"}
+
+La meta-analisi, poi, può essere utilizzata in due modi: retrospettivamente e prospettivamente. Per meta-analisi retrospettiva si intende la modalità più diffusa di raccolta e analisi dei risultati di studi condotti precedentemente. Tale procedura può essere utile per orientare le politiche di condotta in determinati ambiti o per ottenere informazioni più precise circa lo stato dell'arte di una specifica area di ricerca [@borenstein2009]. Alla luce dei risultati di una tale meta-analisi, è inoltre possibile pianificare in modo più accurato una ricerca successiva [@borenstein2009].
+
+Un'applicazione innovativa e sempre più diffusa, però, è quella dell'applicazione della meta-analisi in ottica prospettiva, cioè per analizzare i risultati di ricerche che verranno condotte in seguito. Un esempio di tale applicazione sono le ricerche *multi-lab*, cioè quegli studi congiunti in cui più laboratori e team di ricerca svolgono lo stesso disegno sperimentale in territori diversi [@lewis2022; @ishii2023]. Grazie alla meta-analisi è quindi possibile analizzare congiuntamente i risultati di tali esperimenti. Gli studi *multi-lab* sono estremamente efficaci in quanto, grazie alla maggiore numerosità campionaria garantita dalla molteplicità delle ricerche, permettono di ottenere una stima più affidabile dell'effetto indagato [@lewis2022]. Tale frontiera rappresenta anche un importante passaggio per affrontare la crisi di credibilità e di replicazione diffusa nella ricerca scientifica psicologica.
+
+Infine, è utile ricordare che la meta-analisi non è il migliore o l'unico strumento a disposizione per effettuare una sintesi delle ricerche in un determinato ambito scientifico, ma essa è semplicemente uno strumento con numerose possibili applicazioni e il suo utilizzo va dunque ponderato sulla base degli obiettivi della sintesi stessa [@borenstein2009, p.xxiii].
+
+## Effect size e summary effect {#sec-Effect}
+
+Dal punto di vista quantitativo, l'obiettivo di una meta-analisi è quello di ottenere un indice complessivo che rappresenti la sintesi statistica dei risultati degli studi presi in considerazione. Tale indice complessivo è il *summary effect*. Nella pratica, il *summary effect* è la media ponderata dei singoli *effect size* raccolti da ciascuno studio incluso nella meta-analisi [@borenstein2009].
+
+Per calcolarlo, dunque, è necessario assegnare un peso a ciascuno studio relativamente a tutti gli altri compresi nella meta-analisi. Il peso viene assegnato in funzione della precisione della stima dell'*effect size* [@borenstein2009]. I principali fattori che influenzano la precisione e, di conseguenza, il peso di ciascuno studio, sono la numerosità campionaria e il disegno sperimentale [@borenstein2009]. Nella maggior parte dei casi il peso ($W_i$) corrisponde al reciproco della varianza di stima dell'*effect size* ($W_i=\frac {1}{V_i}$). Agli studi più precisi, cioè caratterizzati da una maggiore numerosità campionaria e dunque da una varianza di stima minore, viene assegnato un peso maggiore [@borenstein2009]. Ciò in quanto essi stimano con maggiore precisione l'effetto indagato e sono quindi più informativi.
+
+Per calcolare il *summary effect* e la relativa varianza di stima, dunque, è necessario estrarre l'*effect size* da ciascuno studio incluso nella meta-analisi. L'*effect size*, cioè la misura della dimensione dell'effetto studiato, può essere di diverse tipologie: può rappresentare l'impatto di un intervento psicologico, la prevalenza di un disturbo, la correlazione tra i disturbi d'ansia e i tentativi di suicidio, ecc. In ambito psicologico, ad esempio, gli indici di *effect size* più utilizzati sono il coefficiente di correlazione di Pearson (*r*) e le *standardized mean differences*, come ad esempio il *d* di Cohen [@borenstein2009; @funder2019].
+
+Dati i numerosi indici di misura dell'*effect size*, al fine di calcolare un *summary effect* è necessario uniformare i diversi indici utilizzati negli studi, riportandoli tutti ad un unico indice di *effect size* [@borenstein2009]. È preferibile quindi che l'indice di *effect size* selezionato sia facilmente interpretabile ed immediatamente informativo [@borenstein2009].
+
+@funder2019, a tal proposito, propongono di presentare ed interpretare gli *effect size* confrontandoli con parametri e standard chiari, oppure di valutarli sulla base delle loro conseguenze pratiche. I due autori criticano ad esempio l'utilizzo automatico degli standard relativi all'interpretazione del coefficiente di correlazione (*r*) proposti da Cohen, secondo i quali un *r* di 0.10 corrisponderebbe ad un effetto piccolo, uno di 0.30 ad uno medio e uno di 0.50 ad un effetto grande. Questi valori, però, presi di per sé sono privi di significato, in quanto non è possibile interpretare il senso dei termini "piccolo, medio, grande" fintantoché essi non sono confrontati con un terzo oggetto o non sono riferiti ad un obiettivo tangibile [@funder2019]. Di conseguenza, l'adesione acritica a questi punti di riferimento ha fatto sì che negli anni spesso i ricercatori traessero conclusioni o interpretazioni superficiali, poco informative o addirittura sbagliate [@funder2019]. Lo stesso può essere affermato per l'utilizzo e la conseguente interpretazione dell'indice *d* (*standardized mean difference)* basata sui valori soglia stabiliti sempre da Cohen.
+
+Al contrario, @funder2019 propongono di interpretare le misure degli *effect size* sulla base del loro confronto con punti di riferimento ben definiti e conosciuti, come ad esempio l'effetto medio riscontrato negli studi in ambito psicologico (che equivale a *r* = 0.19) o la relazione tra variabili intuibile grazie al senso comune (come la relazione tra peso e altezza, che si aggira intorno a *r* = 0.40), oppure sulla base delle conseguenze che un determinato effetto può avere sul breve, medio o lungo periodo.
+
+Di seguito vengono presentati brevemente gli indici di *effect size* più diffusi nella ricerca in ambito psicologico.
+
+### Coefficiente di correlazione (*r* di Pearson) {#sec-Pearson}
+
+Il *coefficiente di correlazione lineare* di Bravais-Pearson (*r*) misura il tipo e l’intensità della relazione lineare tra due variabili X e Y.
+
+*r* è una misura standardizzata della covariazione tra due variabili quantitative. Per covariazione si intende la relazione tra due variabili, ad esempio X e Y, secondo la quale al variare di X varia anche Y e viceversa. La misura assoluta di tale fenomeno è rappresentata dalla covarianza ($\sigma_{\small XY}$), la quale dipende dall'unità di misura delle variabili considerate e, come si evince dalla formula per calcolarla (@eq-covarianza), consiste nella media dei prodotti degli scarti dalla media di X e di Y di ciascuna osservazione (in cui *n* è il numero delle osservazioni).
+
+$$
+\sigma_{\small XY} = \frac{\sum_{\small i}^{\small N} (X_i - \overline{X}) (Y_{\small i} - \overline{Y})}{n}
+$$ {#eq-covarianza}
+
+Una covarianza positiva ($\sigma_{\small XY} > 0$) indica che prevalgono le unità statistiche per le quali si associano scarti dalla media di X e di Y entrambi positivi o entrambi negativi. In pratica, all'aumentare (o al diminuire) di una variabile è associato l'aumento (o la diminuzione) dell'altra.
+
+Al contrario, una covarianza negativa ($\sigma_{\small XY} < 0$) indica che nel campione prevalgono le unità statistiche per le quali agli scarti dalla media positivi di X sono associati scarti negativi di Y (o viceversa). In pratica, dunque, all'aumentare di una variabile è associata la diminuzione dell'altra (o viceversa).
+
+Infine, una covarianza nulla ($\sigma_{\small XY} = 0$) indica che non esiste alcuna associazione tra le variabili X e Y.
+
+Il principale vantaggio di utilizzare *r* (@eq-correlazione) consiste nel fatto che, essendo una misura standardizzata, essa non dipende dalle unità di misura delle variabili prese in considerazione, al contrario di $\sigma_{\small XY}$. Il coefficiente di correlazione, infatti, è il rapporto tra $\sigma_{\small XY}$ e il prodotto delle deviazioni standard di X e di Y, e può variare solo tra i valori compresi tra -1 e 1; ciò lo rende più immediatamente e facilmente interpretabile.
+
+$$
+r = \frac {\sigma_{\small XY}}{\sigma_{\small X}\sigma_{\small Y}}
+$$ {#eq-correlazione}
+
+Il segno del valore di *r* (\pm) indica se le due variabili sono associate positivamente o negativamente, cioè rispettivamente se all'aumentare (o al diminuire) di una, aumenti (o diminuisca) anche l'altra (correlazione lineare positiva), oppure se all'aumento di una corrisponda una diminuzione dell'altra, o viceversa (correlazione lineare negativa). Inoltre, quando *r* = \pm 1 significa che le due variabili sono perfettamente associate, cioè che esiste una perfetta relazione lineare tra di esse. Al contrario, un *r* = 0 indica l'assenza di una qualsiasi relazione tra le due variabili.
+
+Il coefficiente di correlazione *r* è molto utilizzato nella ricerca in ambito psicologico. Di conseguenza, quando gli studi contenuti in una meta-analisi utilizzano tale indice, è possibile usare *r* stesso come indice dell'*effect size* per calcolare il *summary effect* [@borenstein2009]. È però importante ricordare che, nel caso di una meta-analisi, è consigliabile trasformare ciascun *r* nel corrispondente indice *Z* di Fisher (@eq-zfisher) prima di condurre l'analisi e di calcolare il *summary effect* e la relativa varianza di stima (solitamente presentata sotto forma di intervalli di fiducia), poichè tale trasformazione normalizza la distribuzione di *r*, facilitando il processo di inferenza statistica. Infine, una volta svolti i calcoli con i valori trasformati, si trasforma il *summary effect* espresso in *z* di Fisher nuovamente in *r*, per favorirne l'interpretabilità.
+
+$$
+z = 0.5 \times ln \left(\frac {1+r}{1-r} \right)
+$$ {#eq-zfisher}
+
+### Odds ratio {#sec-OR}
+
+Un altro indice di *effect size* molto diffuso in ambito psicologico, soprattutto per quanto riguarda gli studi di interventi clinici, è l'*odds ratio* (OR). L'OR è particolarmente utile per effettuare analisi di *Randomized Controlled Trials* (RCTs), cioè di quei disegni sperimentali solitamente utilizzati per valutare l'efficacia di un qualsiasi intervento socio-sanitario. In tali studi, i dati vengono riportati in una matrice 2X2, come esemplificato nella @tbl-tabellaOR, contenente il numero degli 'eventi' (ad es. la remissione dalla diagnosi di una patologia) e dei 'non-eventi' (ad es. l'assenza della remissione) suddivisi nei due gruppi dei soggetti (gruppo sperimentale e di controllo) [@borenstein2009].
+
+::: {#tbl-tabellaOR}
+|   | **Eventi (remissione)** | **Non-eventi (non-remissione)** | **N** |
+|------------------|:----------------:|:----------------:|:----------------:|
+| **Sperimentale** | 20 | 80 | 100 |
+| **Controllo** | 2 | 98 | 100 |
+
+Esempio tabella 2x2
+:::
+
+L'OR consiste nel rapporto tra due *odds*. L'*odds* è il rapporto tra gli eventi e i non eventi che si verificano all'interno di un determinato gruppo (dai dati della @tbl-tabellaOR, ad esempio, le *odds* di remissione nel gruppo sperimentale sono 20/80 = 0.25). Attraverso l'OR, quindi, è possibile mettere a rapporto le *odds* di remissione da una patologia di un gruppo sperimentale ($Odds_{sperimentale}$) rispetto a quelle di uno di controllo ($Odds_{controllo}$) e si calcola come nella @eq-OR.
+
+$$
+OR = \frac {Odds_{sperimentale}}{Odds_{controllo}}
+$$ {#eq-OR}
+
+L'OR non è un indice immediatamente interpretabile, al contrario di *r* [@borenstein2009]. Un OR = 1, infatti, indica l'assenza di una reale differenza tra le due condizioni (ad es., la mancanza di un effetto del trattamento per il gruppo sperimentale); un valore di OR \> 1 indica maggiori *odds* del verificarsi dell'evento (in questo caso la remissione) per il gruppo sperimentale, mentre un OR \< 1 indica delle *odds* minori del verificarsi dell'evento per il gruppo sperimentale (ad es., il trattamento è un ulteriore fattore di rischio ed è associato ad un numero meno elevato di remissioni dalla malattia rispetto a quelle del gruppo di controllo).
+
+In ogni caso, l'OR possiede delle ottime proprietà statistiche che lo rendono una delle alternative migliori per quanto riguarda le meta-analisi relative alla valutazione degli interventi svolti tramite il metodo *RCTs* [@borenstein2009].
+
+Per condurre una meta-analisi utilizzando l'OR come indice dell'*effect size* è necessario, però, applicare una trasformazione logaritmica [@borenstein2009]. Ciò poiché l'OR è sempre maggiore di zero e la sua distribuzione non è simmetrica intorno al valore nullo (= 1), il che complica l'interpretazione dei valori vicini ad esso. La trasformazione logaritmica (@eq-LogOR), invece, rende la distribuzione dell'indice simmetrica e normale intorno allo zero, facilitandone l'interpretazione ed eventuali processi inferenziali (LogOR = 0 in assenza di associazione, LogOR \> 0 in presenza di un'associazione positiva tra trattamento ed evento e LogOR \< 0 quando l'associazione è negativa).
+
+$$
+LogOddsRatio = ln(OddsRatio)
+$$ {#eq-LogOR}
+
+Una volta trasformati gli OR di ciascuno studio in LogOR, è possibile condurre l'analisi complessiva e calcolare il *summary effect* e la relativa varianza di stima. Solo infine si trasformano nuovamente in OR (@eq-ExpOR) il *summary effect* e la varianza di stima sotto forma di intervalli di fiducia calcolati in LogOR [@borenstein2009].
+
+$$
+OR = exp (LogOR)
+$$ {#eq-ExpOR}
+
+### Cohen's *d* e trasformazioni tra *d*, *r* e *OR* {#sec-D}
+
+Un altro indice di *effect size* molto diffuso nella ricerca psicologica è la stima del Cohen's *d* [@borenstein2009]. Il Cohen's *d* ($\delta$) è una misura standardizzata della differenza tra medie di due popolazioni [@altoè2020]. La sua stima calcolata a partire dalle medie campionarie (vedi @eq-cohensd) è particolarmente utile come indice di *effect size* per tutti quegli studi che riportano i risultati sotto forma di medie e deviazioni standard [@borenstein2009]. Il suo principale vantaggio consiste proprio nel fatto che, essendo una misura standardizzata, permette di calcolare la differenza tra medie riferite ad unità di misura diverse, facilitandone l'interpretabilità [@borenstein2009; @altoè2020]. Ciò è particolarmente utile in ambito psicologico in quanto raramente le variabili valutate in ciascuno studio sono misurate attraverso un unico strumento e/o unità di misura (ad es., i numerosi e più diversi questionari per misurare l'ansia o la depressione nei pazienti).
+
+Nella pratica, *d* riporta gli effetti presi in considerazione come proporzioni della rispettiva deviazione standard aggregata [@altoè2020]. Nel caso della differenza tra le medie di due campioni estratti da due popolazioni indipendenti, *d* equivale al rapporto tra la differenza delle medie dei due campioni e le rispettive deviazioni standard aggregate (*Pooled Standard Deviations*, $S_{pooled}$). Il valore di *d* che si ottiene, dunque, equivale alla proporzione della differenza tra le due medie rispetto alla deviazione standard aggregata (ad es., un *d* = 0.1 indica che la differenza tra le due medie corrisponde allo 0.1 della deviazione standard comune) [@altoè2020].
+
+$$
+d = \frac {\overline X_1 - \overline X_2}{S_{pooled}}
+$$ {#eq-cohensd}
+
+Quando la dimensione campionaria è ridotta, però, *d* tende a sovrastimare il parametro $\delta$, cioè la reale differenza tra le medie delle due popolazioni, ed è quindi necessario trasformare *d* in *Hedges' g*, attraverso l'utilizzo di un fattore di correzione *J*, che permette di correggere tale sovrastima [@borenstein2009].
+
+Infine, dato che non tutti gli studi utilizzano la stesso indice di *effect size*, per poter svolgere una meta-analisi è necessario riportare tutti i risultati degli studi primari ad un indice comune [@borenstein2009]. Tale passaggio va effettuato ovviamente solo nel momento in cui si reputa che tali studi siano confrontabili sulla base del loro disegno sperimentale e delle variabili indagate [@borenstein2009]. Per effettuare una meta-analisi si rende dunque spesso necessario trasformare i risultati presentati sotto forma di *OR* in *d* oppure in *r* e viceversa (per uno schema delle possibili trasformazioni, vedi @fig-Trasformazioni).
+
+![Schema delle possibili trasformazioni tra i principali indici di effect size [@borenstein2009, p. 46].](images/clipboard-3992135379.png){#fig-Trasformazioni fig-align="center" width="400"}
+
+## Differenza tra modelli fixed-effect e random-effects {#sec-FixedvRandom}
+
+Al fine di calcolare un indice complessivo (*summary effect*) che riassuma i risultati dei diversi studi inclusi nella meta-analisi e la sua rispettiva varianza di stima, è necessario selezionare il modello meta-analitico di analisi dei dati. I modelli sono principalmente due: il *fixed-effect model* e il *random-effects model* [@borenstein2009].
+
+La principale differenza tra questi due modelli riguarda il presupposto relativo all'effetto presente nella popolazione (*true effect size)* rispetto al fenomeno indagato da ciascuno studio incluso nella meta-analisi.
+
+Il *fixed-effect model* prevede che esista un unico reale *effect size* (il *true effect size*, cioè l'effetto reale esistente nella popolazione di riferimento della ricerca) misurato dagli studi presi in considerazione e che la dispersione degli effetti osservati (gli *observed effects*, cioè gli effetti realmente osservati nei vari campioni) sia dovuta unicamente all'errore di campionamento dei diversi studi [@borenstein2009]. Nella pratica, quindi, con il *fixed-effect model* si assume di misurare un unico parametro (il *true effect* esistente nella popolazione) la cui variabilità è dovuta unicamente al fatto che la numerosità campionaria dei diversi studi sia finita.
+
+Il *random-effects model*, invece, presume che i *true effect* misurati dagli studi siano effettivamente diversi tra loro e che siano distribuiti normalmente intorno ad un valore medio [@borenstein2009]. Secondo questo approccio, gli studi presi in considerazione valutano un campione della popolazione di tutti i *true effect*, i quali variano per diversi motivi, come ad esempio le caratteristiche della popolazione di riferimento, l'intervento valutato oppure il diverso disegno sperimentale utilizzato [@borenstein2009; @gambarota2024]. La @fig-FixedvRandom riporta graficamente le differenze più importanti tra i due modelli.
+
+![Differenza tra *Fixed-effect* (sinistra) e *Random-effects model* (destra): distribuzione degli effetti osservati (quadrati rosa) rispetto agli effetti reali (cerchi neri) e al *true effect* nella popolazione (linea tratteggiata al centro delle due distribuzioni) [@gambarota2024, p.3].](images/Fix%20vs%20Random_FIlippo-02.png){#fig-FixedvRandom fig-align="center" width="366"}
+
+Nella pratica, la differenza tra i due modelli riguarda principalmente la quantificazione della varianza di stima del *summary effect* (in quanto, per entrambi i modelli, il calcolo del solo *summary effect* corrisponde alla media ponderata dei singoli *effect size*).
+
+Secondo il *fixed-effect model* gli effetti osservati in ciascuno studio dipendono dalla media del *true effect size* della popolazione e dall'errore campionario del singolo studio [@borenstein2009]. Di conseguenza, la varianza di stima del *summary effect* ($V_M$) corrisponde unicamente alla varianza di stima *within-study* di tutti gli studi (@eq-VarianzaFix), cioè alla varianza di stima di ciascun effetto osservato ($V_i$). La varianza di stima del *summary effect* sotto il modello *fixed-effect* equivale dunque al reciproco della sommatoria dei pesi ($W_i$) attribuiti a ciascuno studio (in cui $W_i = \frac{1}{V_i}$) . L'errore standard del *summary effect* equivale, quindi, a $S_M= \sqrt {V_M}$.
+
+$$
+V_M = \frac {1}{\sum_{i=1}^{k} W_i} 
+$$ {#eq-VarianzaFix}
+
+Per il *random-effects model*, invece, gli effetti osservati sono dati oltre che dalla media generale (*Grand Mean,* $M^*$) degli *effect size* e dalla varianza di stima *within-study* ($V_i$), anche dalla varianza di stima dei *true effect* dalla media generale (varianza di stima *between-study*, o '*true variation*', $Tau^2$), cioè dalla distribuzione dei parametri degli *effect size* intorno alla media della popolazione degli effetti [@borenstein2009]. Di conseguenza, la varianza di stima del *summary effect* si calcola come per il modello *fixed-effect* (vedi sopra), ma in cui $Wi$ è dato del reciproco di $V_i^* = V_i + Tau^2$, dove $Tau^2$ corrisponde alla varianza di stima *between-studies* [@borenstein2009].
+
+Dal punto di vista meta-analitico, la principale conseguenza dell'applicazione del *fixed-effect* *model* riguarda il fatto che il peso attribuito a ciascuno studio, e quindi la sua influenza nel determinare il *summary effect* finale, varia considerevolmente in base alla numerosità campionaria. Ciò in quanto si presuppone che ciascuno studio misuri lo stesso *true effect* della popolazione, di conseguenza risulta funzionale attribuire molto più peso agli studi "più precisi", cioè distinti da una maggiore numerosità campionaria [@borenstein2009].
+
+Al contrario, nel *random-effects model*, dato che il *summary effect* è la stima della media della distribuzione di tutti i vari *true effect* misurati nei diversi studi, i pesi attribuiti a ciascuno studio variano di meno, in quanto ogni singola ricerca fornisce informazioni importanti circa lo specifico *true effect* indagato e di conseguenza è importante attribuire un peso simile a ciascuno studio [@borenstein2009].
+
+Infine, l'utilizzo del *fixed-effect model* risulta appropriato unicamente nel caso in cui tutti gli studi inclusi nella meta-analisi siano estremamente simili (cioè svolti con lo stesso metodo, strumenti, team di ricercatori, laboratorio, popolazione, ecc.) e se l'obiettivo sia calcolare un *summary effect* riferito alla stessa popolazione presa in considerazione nei vari studi, senza la pretesa di poterlo generalizzare ad altre tipologie di popolazione [@borenstein2009].
+
+In tutti gli altri casi, invece, in cui comunque si reputa sia sensato confrontare gli studi inclusi nella meta-analisi, è maggiormente indicato utilizzare il *random-effects model* [@borenstein2009].
+
+Come si evince, dunque, in ambito psicologico è raro che il *fixed-effect model* risulti adeguato ai fini di una meta-analisi. La maggior parte degli studi psicologici, infatti, varia spesso sotto diversi punti di vista: metodi sperimentali utilizzati, strumenti di misurazione, tipologia del trattamento, popolazione di riferimento, ecc. Per questo motivo, risulta quasi sempre più appropriato svolgere la meta-analisi secondo il modello *random-effects* [@borenstein2009]. Ciononostante, quando il numero di studi inclusi nella meta-analisi è limitato, è preferibile utilizzare il *fixed-effect model*, in quanto la ridotta numerosità degli studi tende a produrre una distorsione dell'indice di variabilità *Tau*.
+
+## Eterogeneità {#sec-Eterog}
+
+L'obiettivo ultimo di una meta-analisi è calcolare il *summary effect* e la relativa varianza di stima al fine di comprendere i fattori che rendono i diversi effetti osservati omogenei oppure molti vari tra loro [@borenstein2009]. Per tale motivo, è spesso più interessante ed utile interpretare la variabilità dei risultati piuttosto che il *summary effect* in sè [@borenstein2009].
+
+I principali indici utilizzati per misurare la varianza di stima nelle meta-analisi sono: la *Q statistic*, la varianza di stima *between-studies* ($Tau^2$) - e la sua deviazione standard (*Tau*) - e la proporzione dell'eterogeneità reale ($I^2$) rispetto al totale della varianza di stima osservata [@borenstein2009]. Con *eterogeneità* si intende unicamente la varianza di stima tra i *true effect*, cioè la varianza di stima *between-studies* ($Tau^2$); mentre per varianza di stima totale si intende la varianza di stima data da $Tau^2$ (eterogeneità reale) e dall'errore casuale, cioè la varianza di stima *within-study* dovuta all'errore campionario [@borenstein2009].
+
+L'eterogeneità dei *true effect* si può chiaramente calcolare unicamente sotto il *random-effects model*, poiché secondo il modello *fixed-effect* esiste un unico *true effect* indagato dagli studi presi in considerazione e di conseguenza non si presuppone la presenza di alcuna eterogeneità tra i *true effect* [@borenstein2009].
+
+Come anticipato, i principali indici di eterogeneità sono: *Q*, $Tau^2$, *Tau* e $I^2$ [@borenstein2009]. *Q* (@eq-Q, in cui $W_i$ è il peso dello studio ($=\frac {1}{V_i}$), $Y_i$ è l'*effect size* dello studio ed *M* il *summary effect*) corrisponde alla somma standardizzata della varianza di stima osservata [@borenstein2009]. Rappresenta dunque il totale della varianza di stima tra gli effetti osservati e non è influenzata dall'unità di misura dell'indice di *effect size* [@borenstein2009].
+
+$$
+Q= \sum_{i=1}^{k}W_i(Y_i-M)^2
+$$ {#eq-Q}
+
+Questo indice è particolarmente utile se utilizzato insieme ai gradi di libertà (*df* = k-1, in cui k è il numero degli studi inclusi nella meta-analisi), i quali corrispondono alla varianza di stima che ci si aspetterebbe di osservare qualora tutti gli studi inclusi nella meta-analisi indagassero un unico *true effect* [@borenstein2009]. Dalla differenza dunque tra *Q* (la varianza di stima osservata totale) e *df* (la varianza di stima attesa se il *true effect* indagato fosse unico) è possibile ricavare la varianza di stima in eccesso [@borenstein2009]. Tale varianza di stima in eccesso corrisponde all'eterogeneità reale tra i *true effect* degli studi, cioè alla varianza di stima *between-studies* [@borenstein2009].
+
+Il principale limite di tale indice consiste nel fatto che, essendo una somma, dipende fortemente dal numero di studi presi in considerazione [@borenstein2009]; essendo inoltre un indice standardizzato, non è espresso nella stessa unità di misura dell'indice dell'*effect size* utilizzato [@borenstein2009]. Per tali motivi risulta di più facile interpretazione presentare la varianza di stima in eccesso, cioè l'eterogeneità reale *between-studies*, o attraverso una proporzione ($I^2$), oppure con un indice che mantenga la stessa unità di misura dell'effect size (*T*) [@borenstein2009].
+
+$T^2$ rappresenta la varianza di stima *between-studies* dei *true effect size* [@borenstein2009]. Per calcolare tale indice di eterogeneità si divide la varianza di stima in eccesso (*Q-df*) per una quantità (*C*) che permette di trasformare il valore di *Q-df* nell'unità di misura originale [@borenstein2009]. $T^2$ rappresenta dunque il valore assoluto della varianza di stima reale *between-studies* nella stessa unità di misura (al quadrato) del *summary effect* [@borenstein2009].
+
+Da $T^2$ è possibile ricavare facilmente *T* ($= \sqrt{T^2}$) [@borenstein2009]. *T* corrisponde alla deviazione standard dei *true effect size* [@borenstein2009] e permette quindi di quantificare la distribuzione media dei *true effect size* intorno all'effetto medio (*summary effect*) [@borenstein2009]. Questo indice, inoltre, è espresso nella stessa unità di misura del *summary effect* [@borenstein2009].
+
+Infine, $I^2$ (@eq-Iquadro) corrisponde alla proporzione di eterogeneità reale rispetto al totale della varianza di stima osservata [@borenstein2009]. Equivale dunque alla percentuale di varianza di stima *between-studies* sul totale della varianza di stima osservata, cioè la varianza di stima *between-studies* sommata alla varianza di stima *within-study*.
+
+$$
+I^2= \left(\frac {Q-df}{Q} \right) \times 100
+$$ {#eq-Iquadro}
+
+$I^2$ permette quindi di comprendere immediatamente quanta della varianza di stima totale osservata sia effettivamente dovuta ad una reale differenza tra i *true effect* indagati dai diversi studi rispetto alla varianza di stima dovuta all'errore campionario [@borenstein2009]. Nella pratica, dunque, un $I^2 = 0\%$ indica che tutta la varianza di stima osservata è spuria, cioè è dovuta unicamente all'errore campionario ed è quindi insensato tentare di interpretarla (dato che è casuale) [@borenstein2009]. Più $I^2$ si avvicina al 100%, invece, più la varianza di stima osservata corrisponde ad una reale differenza tra i *true effect* indagati dagli studi e diventa quindi interessante comprendere i fattori alla base di tale varianza di stima, ad esempio effettuando un'analisi più approfondita dei dati (come ad es., una *subgroup analysis* o una *meta-regression*) [@borenstein2009]. Il principale vantaggio di $I^2$ consiste nel fatto che esso non dipende dall'unità di misura dell'*effect size*, né dal numero degli studi inclusi nella meta-analisi [@borenstein2009]; al contempo, però, è importante sottolineare che $I^2$ non fornisce alcuna informazione quantitativa circa l'effettiva varianza dell'*effect size*, (cioè ad es., non indica se un *effect size* = 100 varii tra 80 e 120 o tra 190 e 10), ma solamente quanta della varianza stimata sia dovuta all'eterogeneità reale tra i *true effect* indagati [@borenstein2017].
+
+## Limiti e prospettive della meta-analisi {#sec-Limiti}
+
+La meta-analisi, come qualsiasi altro strumento scientifico e di analisi dei dati, non è priva di limiti. I principali, però, riguardano proprio il problema della crisi di credibilità già discusso nel @sec-Cap.1. Tale crisi, infatti, comporta la diffusione nella letteratura psicologica di studi di scarsa qualità, i quali dunque, se analizzati insieme, possono condurre a risultati distorti o ingannevoli. Questo è il cosiddetto problema "*garbage in, garbage out*" [@borenstein2009]. Allo stesso tempo, però, grazie al processo della *systematic review*, solitamente nelle meta-analisi vengono inclusi gli studi di qualità maggiore e, in ogni caso, l'analisi stessa permette di individuare l'impatto che studi di scarsa qualità possono avere sul calcolo complessivo del *summary effect* [@borenstein2009].
+
+Un altro problema presente nella letteratura, e quindi in grado di compromettere i risultati di una meta-analisi, riguarda l'eccessiva presenza di studi che hanno ottenuto risultati positivi (spesso frutto di un'inflazione dell'errore del I tipo) rispetto a quelli che hanno ottenuto risultati negativi, i quali sono molte volte ignorati, non pubblicati o addirittura nemmeno inviati per la pubblicazione da parte dei ricercatori stessi (*file drawer problem*). Perciò, durante lo svolgimento di una meta-analisi, è necessario considerare ed affrontare tale dinamica, conosciuta come *publication bias* [@borenstein2009].
+
+Il *publication bias,* cioè la maggiore probabilità di pubblicazione di studi che riportano risultati positivi e statisticamente significativi rispetto a quelli che ottengono risultati negativi, non significativi o con *effect size* molto piccoli [@borenstein2009], tende a sovra-rappresentare la grandezza degli effetti indagati, proprio in quanto ignora gli studi che hanno ottenuto risultati meno ampi o addirittura nulli [@borenstein2009]. Di conseguenza, è altamente probabile che anche una meta-analisi basata su una *systematic review* della letteratura scientifica produca risultati influenzati dallo stesso *bias* [@borenstein2009].
+
+Un metodo estremamente efficace per valutare la presenza di tale *bias* nell'area di ricerca presa in considerazione dalla meta-analisi è il *funnel-plot* [@borenstein2009]. Il *funnel-plot* è un grafico che rappresenta la distribuzione degli *effect size* dei singoli studi selezionati rispetto al *summary effect*. Come si evince dalla @fig-funnel, sull'asse delle Y vengono riportati i valori degli errori standard (per cui gli studi più precisi, cioè con una dimensione campionaria maggiore, saranno in alto e quelli meno precisi più in basso), mentre su quello delle X sono riportati i valori degli *effect size*.
+
+![Funnel plot con applicazione del metodo *Trim and Fill* [@carnevali2024, p.16].](images/Funnel%20plot-01.jpg){#fig-funnel fig-align="center" width="462"}
+
+Se tutti gli studi, dai più ai meno precisi, si distribuiscono simmetricamente intorno alla media del *summary effect*, significa che non è presente alcun *publication bias* ed è quindi lecito concludere che esso non abbia influenzato il calcolo dell'effetto complessivo [@borenstein2009]. Al contrario, se è presente un'asimmetria (solitamente localizzata nella parte bassa del grafico, in quanto più il campione è piccolo più è probabile che ottenga risultati grandi e che a parità di precisione venga pubblicato rispetto a studi con campioni ridotti che riportano risultati nulli) è lecito ipotizzare che il *publication bias* abbia influenzato il risultato finale della meta-analisi [@borenstein2009].
+
+È pertanto fondamentale che ogni meta-analisi includa una valutazione del *publication bias* [@borenstein2009]. Un utile metodo per condurre tale analisi e per rimediare in parte a questo *bias* è ad esempio quello del *Trim and Fill* sviluppato da Duval e Tweedie [@borenstein2009]. Grazie a questo procedimento statistico è possibile ridurre l'influenza del *publication bias* attraverso l'iniziale rimozione degli studi con campioni più piccoli e con i risultati più estremi (dal lato dei risultati positivi). Successivamente, si integrano in modo simmetrico gli effetti e gli errori standard di simulazioni di studi, che si presuppone manchino nell'analisi a causa del *publication bias* [@borenstein2009]. Infine, vengono re-inseriti gli studi reali inizialmente rimossi e si ri-calcola il *summary effect* alla luce di tale "aggiustamento" [@borenstein2009]. Il metodo *Trim and Fill* permette di ottenere un *funnel-plot* simmetrico ed un *summary effect* più veritiero [@borenstein2009], come illustrato nella @fig-funnel.
+
+Come già discusso, il futuro delle meta-analisi riguarda un loro utilizzo in ottica prospettiva. Negli ultimi anni, infatti, si sta diffondendo sempre di più la pratica delle ricerche *multi-lab* [@lewis2022; @ishii2023]. La meta-analisi viene utilizzata in questi casi poiché i dati provenienti dai diversi laboratori sono poi raccolti e analizzati congiuntamente [@lewis2022]. Ciò consente di prevenire eventuali problemi relativi al *file-drawing* e al *publication bias*, poiché le meta-analisi, essendo pre-programmate, prendono in considerazione tutti i risultati ottenuti dagli studi condotti.
+
+Un'ulteriore frontiera in questo ambito riguarda le *pre-registered multi-lab* e le *multi-lab registered reports*, cioè le ricerche multi-lab pre-registrate e/o sottoposte a revisione paritaria prima che la ricerca venga svolta [@chambers2022]. La registrazione e la pre-approvazione delle ipotesi e delle procedure sperimentali e di analisi dei dati programmate permettono di affrontare in modo efficace le varie cause alle base della crisi di credibilità nell'ambito della ricerca psicologica [@lakens2019], come evidenziato nel @sec-Cap.1 .
+
+Infine, un'altra importante prospettiva di utilizzo della meta-analisi è relativa all'applicazione della *Multiverse Analysis* alla meta-analisi stessa. La *Multiverse Analysis*, consiste nell'analizzare e riportare tutte le combinazioni plausibili derivanti dalle scelte arbitrarie effettuate dai ricercatori durante la fase di codifica dei dati (o di inclusione/esclusioni di studi, indice di *effect size*, ecc., nel caso delle meta-analisi [@steegen2016]. La variabilità riscontrata nei risultati in letteratura è spesso attribuibile non solo al fenomeno oggetto di indagine, ma dai gradi di libertà dei ricercatori durante la raccolta, la codifica e l'analisi dei dati [@simmons2011; @steegen2016; @simonsohn]. Negli studi, infatti, si riportano solitamente i risultati di analisi statistiche condotte su un unico dataset e/o secondo un unico modello statistico. Le possibili combinazioni di dataset e modelli, però, sono una funzione di tutte le decisioni arbitrarie prese dal ricercatore durante lo studio, che di volta in volta moltiplicano le possibili "strade" che si potrebbero intraprendere; l'insieme di tutte queste diramazioni (*garden of forking paths*, @gelman2013) è il cosiddetto *multiverse*.
+
+Per affrontare tale fonte di variabilità è stato quindi proposto di analizzare e riportare tutte le combinazioni plausibilli e supportate teoricamente incluse nel *multiverse* [@steegen2016; @simonsohn]. I metodi *multiverse* sono applicabili non solo ai singoli studi, ma anche alle meta-analisi; questi metodi e la *Multiverse Meta-analysis* saranno l'oggetto di discussione dei seguenti capitoli.

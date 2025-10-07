@@ -1,0 +1,754 @@
+## Post-selection Inference in Multiverse Meta-Analysis (PIMMA) {#sec-Cap.4}
+
+## Introduzione
+
+In questo capitolo si approfondisce l'approccio della *Multiverse Meta-Analysis* (MMA), già brevemente presentato nel @sec-Cap.3. Successivamente, si discute nel dettaglio il metodo della *Post-selection Inference in Multiverse Analysis* (PIMA) e si presentano le funzioni di una sua applicazione alle MMA (PIMMA). Viene quindi fornito un esempio di applicazione della *Post-selection Inference in Multiverse Meta-Analysis* (PIMMA) ad un dataset reale relativo ad una MMA sull'efficacia delle psicoterapie per la depressione. Infine, si discutono i limiti e le possibili prospettive dell'applicazione della PIMMA.
+
+## Multiverse meta-analysis
+
+La *Multiverse Meta-Analysis* (MMA) rappresenta un avanzamento metodologico cruciale nel panorama dell'*Open Science*, contribuendo in modo significativo al contrasto della *replicability crisis* che interessa la ricerca psicologica e non solo. Questo approccio si fonda sull’assunto, già discusso nel @sec-Cap.2, secondo il quale una singola ricerca non può essere sufficiente a fornire evidenze conclusive sull’esistenza o la dimensione di un determinato fenomeno [@opensciencecollaboration2015; @nichols2021; @errington2021]. Anche i risultati della meta-analisi, però, possono dipendere da decisioni arbitrarie del ricercatore, come la selezione degli studi da includere, la scelta degli indici di *effect size* o del modello statistico utilizzato (*random-effects* vs *fixed-effect*). La MMA si propone, quindi, di rafforzare i principi fondativi della meta-analisi classica [@borenstein2009], integrandoli con un’esplorazione sistematica delle scelte analitiche che, pur essendo legittime, possono produrre risultati sensibilmente differenti. In questo senso, la MMA consente di esplicitare e quantificare quanto determinate scelte meta-analitiche influiscono sui risultati finali.
+
+Nel dettaglio, una *Multiverse Meta-Analysis* si costruisce a partire da uno stesso insieme di studi primari - come una meta-analisi tradizionale - e prevede la generazione di un “*multiverse* meta-analitico”, ovvero l’insieme di tutte le meta-analisi ragionevoli ottenibili variando sistematicamente le decisioni metodologiche. Tali decisioni includono, ad esempio, l’inclusione o esclusione di studi che hanno ottenuto effetti considerati *outlier*, studi affetti da *bias* elevato, oppure il calcolo del *summary effect* - e relativa varianza - secondo un modello *random-effects* o *fixed-effect*. Ogni possibile combinazione di tali opzioni genera una diversa meta-analisi all’interno del multiverso, fornendo così una rappresentazione immediata della robustezza del *summary effect* rispetto alle scelte analitiche effettuate.
+
+L’obiettivo principale della MMA non è quello di identificare un’unica stima “corretta” dell’effetto, bensì quello di esplorare e visualizzare come il valore del *summary effect* e della sua varianza varino in funzione delle diverse specificazioni analitiche. In questo senso, la MMA promuove una maggiore trasparenza e consapevolezza nell’interpretazione dei risultati meta-analitici, evidenziando il ruolo delle decisioni metodologiche e favorendo una riflessione critica sull’accumulazione della conoscenza scientifica.
+
+Tuttavia, è importante sottolineare come la *Multiverse Meta-Analysis* sia, per sua natura, un approccio esplorativo. Questo significa che, pur essendo utile per la comprensione della robustezza dei risultati, essa non consente di trarre inferenze statistiche generalizzabili, né di valutare formalmente la probabilità che una determinata stima sia più valida di un’altra. Per ovviare a questo limite, è possibile applicare alla MMA i recenti sviluppi metodologici relativi alle *multiverse analysis* inferenziali, come la PIMA. L'applicazione di tale metodo, la *Post-selection Inference in Multiverse Meta-Analysis* (PIMMA), sarà approfondita nel prossimo paragrafo.
+
+## PIMMA: principi e applicazione su dati reali
+
+Come già evidenziato, uno dei principali limiti della *Multiverse Meta-Analysis* (MMA) riguarda la sua natura puramente esplorativa, che non consente di trarre inferenze generalizzabili a partire dai risultati ottenuti. Per questo motivo, risulta funzionale applicare il metodo PIMA [@girardi2024] anche alle MMA. La PIMA, infatti, fornisce un framework generale per effettuare inferenze su tutte le possibili specificazioni analitiche che compongono un *multiverse*, dalla fase di codifica dei dati fino alla stima dei modelli statistici [@girardi2024].
+
+Nel dettaglio, la PIMA permette di (1) testare l’ipotesi nulla sull’intero *multiverse*, verificando se almeno una delle specificazioni del *multiverse* presenta un effetto statisticamente significativo (*weak FWER control*, cioè la probabilità di commettere almeno un errore di tipo I è contenuta entro il livello $\alpha$ prefissato, assumendo che tutte le ipotesi nulle testate siano vere), (2) identificare le specificazioni significative mantenendo un controllo rigoroso dell’errore del I Tipo (*strong FWER control*), e (3) stimare la proporzione minima di specificazioni con effetto significativo rispetto al totale [*True Discovery Proportion*, @girardi2024]. Queste tre componenti consentirebbero di trasformare la natura descrittiva della *Multiverse Analysis* in un’analisi formalmente inferenziale, mantenendo al tempo stesso trasparenza e rigore statistico. La procedura si basa sul *sign flipping score test* come statistica test principale, in quanto risulta particolarmente adatta alla costruzione di una distribuzione nulla attraverso metodi di ricampionamento [@girardi2024].
+
+Un elemento centrale della PIMA riguarda l’utilizzo del metodo *maxT* per la correzione dei *p-value* in presenza di test multipli. A differenza della tradizionale correzione di Bonferroni, che assume l’indipendenza tra i test e risulta eccessivamente conservativa quando i test sono correlati - cioè comporta un'importante perdita di potenza statistica- il metodo *maxT* consente di tenere conto della dipendenza tra le specificazioni e di mantenere un’adeguata potenza statistica [@girardi2024, vedi @fig-maxT]. Ciò è particolarmente rilevante nel contesto delle *Multiverse Meta-Analysis*, dove le scelte metodologiche (ad es., esclusione di studi, modelli *random-effects* vs. *fixed-effect*, metodi di stima della varianza tra studi) tendono a produrre risultati tendenzialmente correlati. Nel dettaglio, l’approccio *maxT* viene implementato mediante una procedura di ricampionamento (*sign-flipping*) che genera la distribuzione nulla delle statistiche test e consente di calcolare sia un *p-value* globale, sia *p-values* corretti per ciascuna specificazione.
+
+```{r}
+#| label: fig-maxT
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-height: 7
+#| fig-width: 8
+#| fig-hold: false 
+#| fig-cap: >
+#|   I grafici rappresentano una simulazione degli effetti di due metodi diversi di correzione dei confronti multipli: 
+#|   il metodo Bonferroni (in rosso) e il metodo *max-T* (in blu). 
+#|   Sull'asse x di ciascun grafico sono riportati i valori dei *p-value* grezzi non corretti, 
+#|   mentre sull'asse y i valori dei *p-value* corretti. 
+#|   Ciascun grafico riporta i risultati delle correzioni al variare della correlazione tra i test
+#|   (da $\rho$ = 0.0 in alto a sinistra a $\rho$ = .09 in basso a destra). 
+#|   Come è possibile notare, con il metodo Bonferroni (in rosso) la correzione dei *p-value* è molto estrema – 
+#|   quasi tutti i *p-value* assumono un valore vicino a 1; inoltre, non tiene in considerazione la correlazione tra i test. 
+#|   Al contrario, il metodo *max-T* (in blu) considera la correlazione tra i test effettuati e
+#|   risulta quindi meno conservativo in presenza di alta correlazione e garantisce una maggiore potenza statistica.
+#|
+
+
+set.seed(3290)
+library(flip)
+library(filor)
+library(devtools)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(latex2exp)
+r <- c(0, 0.3, 0.5, 0.9)
+nsim <- 1e3
+n <- 1e4
+k <- 30
+
+mu <- runif(k, 0, 0.5)
+res <- vector(mode = "list", length = length(r))
+
+for(i in 1:length(r)){
+    R <- filor::rmat(rep(r[i], filor::ncor(k)))
+    Y <- MASS::mvrnorm(k, mu, R, empirical = TRUE)
+    fl <- flip::flip(Y)
+    fl <- flip.adjust(fl)
+    p_maxt <- fl@res$`Adjust:maxT`
+    p_raw <- fl@res$`p-value`
+    p_bonf <- p.adjust(p_raw, method = "bonferroni")
+    res[[i]] <- list(p = p_raw, p_maxt = p_maxt, p_bonf = p_bonf)
+}
+
+names(res) <- r
+res <- bind_rows(res, .id = "rho")
+res$rho <- factor(res$rho, labels = latex2exp::TeX(sprintf("$\\rho = %s$", r)))
+
+res |>
+    pivot_longer(c(p_maxt, p_bonf)) |>
+    mutate(name = ifelse(name == "p_bonf", "Bonferroni", "maxT")) |>
+    ggplot(aes(x = p, y = value, color = name)) +
+    geom_point(size = 3) +
+    facet_wrap(~rho, labeller = label_parsed) +
+    geom_abline(lty = "dashed", linewidth = 0.3) +
+    geom_line() +
+    xlab("Raw p-value") +
+    ylab("Corrected p-value") +
+    theme_minimal(base_size = 17) +
+    theme(legend.position = "bottom",
+          legend.title = element_blank()) +
+    xlim(c(0,1)) +
+    ylim(c(0,1))
+
+
+```
+
+Proprio per le caratteristiche sopra elencate, il metodo PIMA è direttamente applicabile alle MMA. Attraverso tale applicazione, infatti, sarebbe possibile effettuare inferenze statistiche sull’intero spazio delle specificazioni meta-analitiche possibili a partire da un unico set di studi primari. In altre parole, si potrebbe verificare se – tra tutte le possibili combinazioni di scelte meta-analitiche (ad es., inclusione/esclusione di outlier, tipo di modello, stimatore di $\tau^2$, ecc.) – esistono specificazioni che mostrano un effetto significativo e, in tal caso, anche identificare quali siano, mantenendo sotto controllo l’errore del I Tipo. Inoltre, consentirebbe di quantificare in modo preciso la robustezza dell’effetto osservato, riportando la proporzione di specificazioni significative rispetto al totale e offrendo una rappresentazione grafica intuitiva delle decisioni analitiche che influenzano maggiormente i risultati.
+
+In sintesi, la *Post-selection Inference in Multiverse Meta-Analysis* (PIMMA) offrirebbe un importante avanzamento teorico e pratico rispetto alla *Multiverse Meta-Analysis* classica. Grazie alla sua capacità di coniugare trasparenza analitica e rigore inferenziale, infatti, essa consentirebbe di sviluppare la semplice esplorazione descrittiva del *multiverse* verso un’analisi inferenziale rigorosa, riducendo il rischio di falsi positivi e favorendo una comunicazione più precisa e affidabile dei risultati. Per questo motivo, la PIMMA rappresenta uno strumento particolarmente adatto per affrontare l’incertezza dovuta alle scelte metodologiche nelle meta-analisi e più in generale nelle scienze empiriche, contribuendo in modo significativo alla costruzione di una conoscenza scientifica più solida e replicabile [@girardi2024].
+
+### Presentazione del dataset e pre-processing
+
+Per il seguente caso studio di applicazione del metodo PIMA [@girardi2024] alla *Multiverse Meta-Analysis* è stato selezionato il dataset condiviso pubblicamente da @plessen2023. Gli autori, infatti, hanno già condotto una MMA su 415 studi primari che indagavano l'efficacia delle psicoterapie per il disturbo depressivo maggiore in diverse popolazioni. Nello specifico, per il loro studio hanno effettuato una *systematic review* della letteratura includendo tutti i *Randomized Controlled Trials* (RCTs) pubblicati fino al primo gennaio 2022 in quattro database principali (PubMed, EMBASE, PsycINFO e il Cochrane Register of Controlled Trials). @plessen2023 hanno deciso di includere tutti gli studi di efficacia (in lingua inglese, tedesca, spagnola o olandese) che confrontassero l'effetto sulla diminuzione dei sintomi depressivi di un qualsiasi tipo di intervento psicoterapeutico (ad es., CBT individuale o di gruppo, interventi psicodinamici, sistemici-relazionali, ecc.) rispetto ad un gruppo di controllo (*Care As Usual* - CAU, *Waiting List,* ecc.).
+
+Gli autori hanno scelto di escludere dall'analisi, invece, gli studi che indagavano l'efficacia delle psicoterapie sulla prevenzione delle ricadute (*maintenance and relapse prevention trials*), le tesi e gli interventi non indirizzati nello specifico ai sintomi depressivi. Inoltre, gli studi inclusi riportano misure della severità dei sintomi depressivi sia *self-report* che *clinician-report* [@plessen2023].
+
+Per rendere l’applicazione della *Post-selection Inference in Multiverse Meta-Analysis* (PIMMA) più gestibile dal punto di vista computazionale e metodologico, sono state effettuate alcune operazioni preliminari di *pre-processing*. In primo luogo, sono stati esclusi tutti gli studi che riportavano più condizioni d’intervento all’interno dello stesso trial, in quanto risulta complesso e poco giustificato aggregarli in un unico *summary effect*. In secondo luogo, sono stati mantenuti esclusivamente gli studi condotti su popolazione adulta (N = 124), escludendo target clinici specifici (ad es. studenti, depressioni post-partum, ecc.) al fine di ottenere un campione più omogeneo e teoricamente coerente. Infine, sono state considerate nel *multiverse* solo gli scenari meta-analitici del multiverse che includessero almeno 10 studi, per garantire una sufficiente stabilità statistica delle stime. Il totale delle specificazioni meta-analitiche incluse è quindi di 1144. In @fig-descrittivePlessen sono rappresentate le caratteristiche principali di questo *dataset* semplificato.
+
+```{r}
+#| label: fig-descrittivePlessen
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: Tabella 1. Caratteristiche riassuntive degli studi primari inclusi
+#| fig-height: 3
+#| fig-width: 3
+#| fig-hold: false 
+#| results: asis
+
+library(dplyr)
+library(gt)
+library(readr)
+library(webshot2) # per gtsave() in png
+library(knitr)
+
+data <- read_csv("descrittive.csv")
+total_k <- nrow(data)
+
+data <- data %>%
+  mutate(
+    risk_of_bias = case_when(
+      rob_include_best == 1 & rob_exclude_worst == 0 ~ "low",
+      rob_include_best == 1 & rob_exclude_worst == 1 ~ "some concern",
+      rob_include_best == 0 ~ "high",
+      TRUE ~ "some concern"
+    )
+  )
+
+vars <- c("target_group", "format", "type", "control", "diagnosis", "risk_of_bias")
+
+table_summary <- lapply(vars, function(var) {
+  data %>%
+    count(!!sym(var)) %>%
+    mutate(
+      Percent = round(100 * n / total_k, 1),
+      Summary = paste0(n, " (", Percent, "%)"),
+      Characteristic = var
+    ) %>%
+    select(Characteristic, Level = !!sym(var), Summary)
+}) %>%
+  bind_rows()
+
+# Traduzioni
+table_summary <- table_summary %>%
+  mutate(
+    Characteristic = recode(Characteristic,
+      "control" = "Gruppo di Controllo",
+      "diagnosis" = "Diagnosi",
+      "format" = "Tipo di intervento",
+      "risk_of_bias" = "Bias",
+      "target_group" = "Popolazione",
+      "type" = "Tipo di Psicoterapia"
+    ),
+    Level = recode(Level,
+      "cau" = "CAU (Care As Usual)",
+      "wl" = "Waiting List",
+      "other ctr" = "Altri controlli",
+      "cut-off score" = "Cut-Off score",
+      "diagnosis" = "Diagnosi clinica",
+      "subclinical depression" = "Depressione sub-clinica",
+      "group" = "Psicoterapia di gruppo",
+      "guided self-help" = "Self-help guidato",
+      "individual" = "Psicoterapia individuale",
+      "other formats" = "Altri interventi",
+      "high" = "Alto",
+      "low" = "Basso",
+      "some concern" = "Medio",
+      "adults" = "Adulti",
+      "general medical" = "Clinica",
+      "older adults" = "Anziani",
+      "other target groups" = "Altro",
+      "perinatal depression" = "Madri post-partum",
+      "student population" = "Studenti",
+      "cbt-based" = "CBT",
+      "not-cbt-based" = "Altre tecniche"
+    )
+  )
+
+table_summary$Characteristic <- factor(
+  table_summary$Characteristic,
+  levels = c("Popolazione", "Tipo di Psicoterapia", "Tipo di intervento", "Diagnosi", "Gruppo di Controllo", "Bias")
+)
+
+table_summary <- table_summary %>%
+  arrange(Characteristic, Level)
+
+# Crea tabella gt
+tabella_gt <- table_summary %>%
+  gt(groupname_col = "Characteristic") %>%
+  cols_label(
+    Level = "Categoria",
+    Summary = md("**n (%)**")
+  ) %>%
+  cols_align(align = "left", columns = c("Level")) %>%
+  cols_align(align = "right", columns = c("Summary")) %>%
+  tab_header(
+    title = md(paste0("**Tabella 1. Caratteristiche riassuntive degli studi primari inclusi (N = ", total_k, ")**"))
+  ) %>%
+  tab_options(
+    table.font.size = "small",
+    heading.title.font.size = 14,
+    row_group.font.weight = "bold"
+  )
+
+# Output condizionato
+if (knitr::is_latex_output()) {
+  # salva come immagine PNG
+  gtsave(tabella_gt, "tabella_descrittive.png", expand = 10)
+  knitr::include_graphics("tabella_descrittive.png")
+} else {
+  tabella_gt
+}
+
+
+```
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+#| echo: false
+
+# Caricamento pacchetti
+library(tidyverse)
+library(metafor)
+library(flip)
+library(rpart)
+library(effects)
+library(patchwork)
+
+set.seed(2025)
+
+source("utils.R") # custom function
+
+mtheme <- function() {
+    theme_minimal(base_size = 20)
+}
+
+theme_set(mtheme())
+
+set_lvl_tex <- function(x){
+    x = factor(x)
+    factor(x, labels = latex2exp::TeX(levels(x)))
+}
+
+tex <- latex2exp::TeX
+```
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+#| echo: false
+#| eval: false
+#| embed-resources: true
+
+# Dataset pre-processed da Plessen et al. 2023
+
+source(here::here("plessen-script/multiverse_1_data-cleaning.R"), 
+       local = new.env(),
+       verbose = FALSE)
+```
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+#| echo: false
+#| output: asis
+
+# Funzioni per applicare la PIMMA
+
+filor::show_file("utils.R", "code")
+```
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+# importiamo i dati
+dat <- readRDS("data/clean/data_cleaned_one_outcome_type.rds")
+
+# selezioniamo le variabili di interesse
+dat4model <- dat |>
+    select(study,
+           es_id,
+           yi, vi,
+           target_group,
+           format,
+           diagnosis,
+           type,
+           control,
+           rob_exclude_worst,
+           rob_include_best)
+
+# queste sono quelle essenziali per fare metanalisi e aggregare gli effetti
+vars_for_effects <- c("study", "es_id", "yi", "vi")
+
+
+## Ora per ogni paper, vediamo se ha più di un effetto per condizione
+
+datl <- split(dat4model, dat4model$study, drop = FALSE)
+exclude <- sapply(datl, is_diff, vars_for_effects)
+datl_filt <- datl[!exclude]
+dat4model_filt <- dplyr::bind_rows(datl_filt, .id = "study")
+dat4model_filt <- escalc(yi = yi, vi = vi, data = dat4model_filt)
+dat4model_filt
+```
+
+### Costruzione del multiverse
+
+Il multiverse meta-analitico è stato costruito mediante una griglia di condizioni ottenuta incrociando sistematicamente una serie di scelte metodologiche. Le combinazioni che formano le diverse specificazioni incluse nel multiverse sono le seguenti:
+
+-   **Rho**: valori di correlazione tra effetti aggregati all'interno di un unico studio ($\rho$ = 0.0, 0.3, 0.5, 0.8);
+-   **Modello meta-analitico**: *fixed-effect* (*EE*) vs *random-effects* (*REML*);
+-   **Format dell’intervento**: terapia individuale, di gruppo, self-help guidato, altri;
+-   **Diagnosi**: clinica, cut-off score, depressione subclinica;
+-   **Tipo di psicoterapia**: CBT vs approcci alternativi;
+-   **Rischio di bias**: basso, medio, alto;
+-   **Inclusione della condizione “all”**: inclusione di tutte le condizioni per ciascuna variabile.
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+## Condizioni della multiverse
+
+## Ora definiamo la griglia di condizioni della multiverse:
+
+# teniamo solo adulti
+dat4model_filt <- dat4model_filt |>
+    filter(target_group == "adults")
+
+multi_vars <- list(
+    # correlation between multiple rows (0 = independent)
+    rho = c(0, 0.3, 0.5, 0.8),
+    # fixed vs random effects model
+    model = c("EE", "REML")
+)
+
+# queste sono le variabili degli studi quindi risk of bias, tipo di terapia, ecc.
+vars <- dat4model_filt |>
+    select(-study, -es_id, -yi, -vi, -target_group, -starts_with("outlier"),
+           -rob_exclude_worst, -rob_include_best) |>
+    data.frame() |>
+    as.list() |>
+    lapply(unique) |>
+    lapply(function(x) c(x, "all"))
+
+# espandiamo in modo fattoriale
+ex_vars <- expand.grid(vars, stringsAsFactors = FALSE)
+
+# espandiamo tipi di modelli
+models <- expand.grid(
+    multi_vars,
+    stringsAsFactors = FALSE
+)
+
+# uniamo tutto
+multi <- expand_grid(models, ex_vars)
+head(multi)
+```
+
+### Procedura e analisi
+
+L’intero *multiverse* è stato sottoposto a inferenza statistica mediante l’applicazione del metodo PIMA, basato sullo *sign-flipping score test* [@girardi2024]. Per ciascuno scenario, è stato quindi calcolato uno *score* secondo la seguente formula:
+
+$$
+z_k = \frac{\hat{g}_{k}}{\hat\tau^2_0 + \sigma^2_{\epsilon_k}}
+$$
+
+dove ${\hat{g}_{k}}$ è l’effetto osservato per ogni metanalisi *k* - calcolato in *Hedges'* $g$ a partire dalle differenze post-trattamento dei due gruppi [sperimentale vs controllo, per approfondire @cuijpers2017] - ${\hat\tau^2_0}$ è la varianza tra gli studi sotto $H_0$, e $\sigma^2_{\epsilon_k}$ la varianza entro lo studio. I valori $z_k$ ottenuti per ciascuno scenario sono stati poi permutati B = 1000 volte al fine di costruire la distribuzione nulla e testare l’ipotesi $H_0$, secondo la quale nessuno degli scenari del *multiverse* produce un effetto statisticamente significativo.
+
+L’inferenza è stata condotta tramite due test distinti: un *weak FWER control*, che valuta l’ipotesi nulla complessiva sull’intero *multiverse*, e un *strong FWER control*, basato sul metodo *maxT*, che corregge i *p-value* delle singole specificazioni tenendo conto della correlazione tra test.
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+
+## Quindi avremo $k$ *score* per ogni scenario $m$ della multiverse che verranno permutati $B$ volte. In pratica abbiamo una matrice $k \times m$ che rappresenta la nostra intera multiverse ed il nostro test multivariato gestito con PIMA.
+
+multi <- expand_grid(models, ex_vars)
+
+multi$zi <- multi$fit <- vector(mode = "list", length = nrow(multi))
+multi$k <- NA
+data_agg <- lapply(unique(multi$rho), function(r) aggregate_effects(dat4model_filt, r))
+names(data_agg) <- unique(multi$rho)
+
+if(!file.exists("objects/pima.rds")){
+    for(i in 1:nrow(multi)){
+
+        data_i_agg <- data_agg[[as.character(multi$rho[i])]]
+
+        # zeroing conditions
+        data_i_agg$keep <- to0(data_i_agg, multi[i, ])
+
+        if(sum(data_i_agg$keep) >= 10){
+            # fitting model
+            fit <- rma(yi, vi,
+                       data = data_i_agg,
+                       method = multi$model[i],
+                       test = ifelse(multi$model[i] == "EE", "t", "knha"),
+                       subset = keep == 1)
+
+            # estimating tau2 under h0
+            tau20 <- get_tau2_h0(fit, multi$model[i])
+
+            multi$fit[[i]] <- fit
+            multi$k[i] <- sum(data_i_agg$keep)
+
+            # calculating scores
+
+            zi <- with(fit$data, as.numeric(yi / (vi + tau20)))
+            zi[fit$data$keep == 0] <- 0
+
+            multi$zi[[i]] <- zi
+        }
+
+        cat(sprintf("model %s/%s", i, nrow(multi)), "\n")
+    }
+    multi_filt <- multi[sapply(multi$fit, class) != "NULL", ]
+    multi_filt$res <- lapply(multi_filt$fit, filor::summary_rma)
+    saveRDS(multi_filt, "objects/pima.rds")
+} else{
+    multi_filt <- readRDS("objects/pima.rds")
+}
+
+# multivariate Test
+
+if(!file.exists("objects/pima_res.rds")){
+    multi_res <- pima(multi_filt, test = "sum", B = 5e3)
+    saveRDS(multi_res, "objects/pima_res.rds")
+} else{
+    multi_res <- readRDS("objects/pima_res.rds")
+}
+
+
+## Ora abbiamo i nostri *score* per ogni scenario e non ci resta che combinarli, avere i p value complessivi e quelli aggiustati. La funzione `pima()` fa tutto e restituisce i risultati.
+
+multi_res_data <- multi_res$data |>
+    unnest(cols = c(res))
+
+multi_res_data <- multi_res_data |>
+    mutate(
+        sign = case_when(
+            Adjust.maxT <= 0.05 ~ "after maxT",
+            p.value <= 0.05 & Adjust.maxT > 0.05 ~ "before maxT",
+            TRUE ~ "never"
+        ),
+        sign01 = ifelse(p.value <= 0.05, 1, 0),
+        sign01c = ifelse(Adjust.maxT <= 0.05, 1, 0)
+    ) |>
+    arrange(b) |>
+    mutate(specification = 1:n())
+```
+
+```{r}
+#| label: fig-multi_summary
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 10
+#| fig-hold: false 
+#| fig-cap: >
+#|   Il grafico a sinistra rappresenta un istogramma della distribuzione dei summary effect ($\beta$) di tutte le 
+#|   meta-analisi incluse nel multiverse; riporta inoltre anche la mediana degli effetti
+#|   (linea nera tratteggiata). Il grafico centrale rappresenta la distribuzione degli errori standard ($\tau$)
+#|   dei summary effect. Infine, il boxplot a destra rappresenta la mediana e l’intervallo interquartilico (dal primo al terzo quartile) 
+#|   della distribuzione della matrice di correlazione tra i test permutati ($\rho$).
+
+
+# Calcola tau e riorganizza i dati
+multi_res_long <- multi_res_data |> 
+  mutate(tau = sqrt(tau2)) |> 
+  pivot_longer(c(b, tau)) |> 
+  mutate(name_lbl = ifelse(name == "b", "beta", "tau"))
+
+# Calcola la mediana solo per beta, mantenendo name_lbl per il facet
+medians <- multi_res_long |> 
+  filter(name_lbl == "beta") |> 
+  group_by(name_lbl) |> 
+  summarise(med = median(value, na.rm = TRUE), .groups = "drop")
+
+# Grafico sinistro: istogrammi per beta e tau, con mediana solo per beta
+overall_left <- multi_res_long |> 
+  ggplot(aes(x = value)) +
+  facet_wrap(~name_lbl, labeller = as_labeller(c(beta = "beta", tau = "tau"), label_parsed)) +
+  geom_histogram(fill = "dodgerblue", col = "black", bins = 30) +
+ geom_vline(
+  data = medians,
+  aes(xintercept = med, group = name_lbl),
+  color = "black", linetype = "dashed", linewidth = 1
+) +
+  theme(
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    aspect.ratio = 1,
+    strip.text = element_text(margin = margin(t = 10, b = 10))
+  ) +
+  xlim(c(-0.1, 2))
+
+# Matrice di correlazione e boxplot per rho
+corT <- cor(multi_res$flip@permT)
+corT_cc <- corT[lower.tri(corT)]
+
+overall_right <- data.frame(
+  cor = corT_cc,
+  label = "rho"
+) |> 
+  ggplot(aes(x = cor)) +
+  geom_boxplot(width = 0.5, fill = "dodgerblue") +
+  ylim(c(-0.5, 0.5)) +
+  facet_wrap(~label, labeller = as_labeller(c(rho = "rho"), label_parsed)) +
+  theme(
+    axis.title.x = element_blank(),
+    axis.text.y = element_blank(),
+    aspect.ratio = 1
+  )
+
+# Combinazione dei grafici
+overall_left + overall_right + patchwork::plot_layout(widths = c(1, 0.5))
+
+```
+
+Come è possibile vedere in @fig-multi_summary il *summary effect* mediano, calcolato in *Hedges'* $g$, delle diverse specificazioni meta-analitiche è uguale a 0.59.
+
+```{r}
+#| message: false
+#| echo: false
+#| warning: false
+#| include: false
+summary(multi_res_data$b)
+```
+
+La media complessiva degli *effect size* ottenuti nelle meta-analisi incluse nel multiverse è pari a $\bar{x} = 0.63$, il che indica che, in media, i gruppi sperimentali mostrano un miglioramento post-trattamento superiore di 0.63 deviazioni standard (calcolate come deviazione standard aggregata, pooled standard deviation) rispetto ai gruppi di controllo.
+
+Inoltre, è importante sottolineare come tutti gli effetti si distribuiscano tra i valori di 0.28 e 1.61. Questi risultati rafforzano le prove a favore della robustezza dell'efficacia delle psicoterapie per le depressione, dato che tutte le meta-analisi riportano un effetto clinicamente significativo, cioè di almeno 0.24 [@cuijpers2014].
+
+I valori di $\tau$ (deviazione standard *between-studies*), invece, sono influenzati da tutte le specificazioni meta-analitiche calcolate secondo un modello *fixed-effect* e dunque con una eterogeneità fissata a zero.
+
+Infine, la correlazione mediana tra tutte le meta-analisi è risultata essere di $\rho$ = 0.03.
+
+```{r}
+#| message: false
+#| echo: false 
+#| warning: false
+#| include: false
+round(median(corT), 2)
+```
+
+Tale valore mediano così basso è principalmente dovuto all’elevata eterogeneità tra gli studi inclusi (diversi tipi di psicoterapia, formati di intervento, gruppi di controllo, ecc.), che determina una bassa correlazione media tra le specificazioni. Tuttavia, è importante sottolineare che nel *multiverse* sono presenti anche specificazioni con correlazioni significativamente più alte. Di conseguenza in questo caso la correzione *max-T* sarà più conservativa, ma in ogni caso meno severa del metodo Bonferroni e consentirà comunque una maggiore potenza statistica, adattando la correzione in modo differenziato in base alla correlazione tra le specificazioni.
+
+### Inferenza con il metodo PIMMA: risultati principali
+
+Dal punto di vista inferenziale, il test globale sulla *multiverse* ha prodotto un risultato significativo (*p* = .0004), suggerendo che almeno una specificazione meta-analitica nel *multiverse* presenta un effetto diverso da zero.
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false 
+#| include: false 
+npc(multi_res$flip, comb.funct = "maxt")
+```
+
+Invece, per quanto riguarda la correzione dei *p-value* con il metodo *max-T*, in @fig-correzione è possibile osservare come una parte dei risultati inizialmente significativi abbia perso tale significatività dopo la correzione per i confronti multipli.
+
+```{r}
+#| label: fig-correzione
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 6
+#| fig-width: 12
+#| fig-hold: false 
+#| fig-align: center
+#| fig-cap: >
+#|  Il seguente grafico rappresenta la proporzione di meta-analisi con *p-value* significativi (< .05) prima (in verde) e
+#|  dopo l'aggiustamento utilizzando il metodo *max-T* (in rosso). In blu invece sono rappresentate le meta-analisi che non
+#|  sono mai risultate essere significative. Sull'asse x sono riportati i punti Zeta iniziali non corretti (corrispettivi dei
+#|  *p-value*, dove un *p-value* < .05 corrisponde ad un punto Z > 2.0); sull'asse y, invece, sono riportati i punti Z dopo
+#|  la correzione tramite *max-T*.
+
+
+multi_res_data |>
+  ggplot(aes(x = tp(p.value, "z"), y = tp(Adjust.maxT, "z"))) +
+  geom_point(aes(color = sign),
+             size = 3,
+             alpha = 0.5) +
+  geom_vline(xintercept = tp(0.05, "z"), lty = "dashed") +
+  geom_hline(yintercept = tp(0.05, "z"), lty = "dashed") +
+  theme(legend.position = "bottom",
+        aspect.ratio = 1) +
+  xlab(tex("$p_z$ raw")) +
+  ylab(tex("$p_z$ maxT")) +
+  labs(color = tex("$p \\leq \\; 0.05$")) +
+  guides(color = guide_legend(override.aes = list(alpha = 1))) +
+  ggtitle(TeX("N = 1144 specificazioni ($k \\geq 10$)"))
+
+```
+
+In @fig-correzione sono rappresentati i *p-value* delle specificazioni prima e dopo l’aggiustamento per i confronti multipli condotto tramite il metodo *max-T*. Come è possibile osservare, solo una piccola proporzione di meta-analisi (8 su 1144, pari allo 0.007) risulta non essere significativa né prima né dopo la correzione. Inoltre, 106 specificazioni (pari al 9.27%) hanno perso la significatività dopo l’aggiustamento, evidenziando l’importanza di effettuare *multiverse analysis* inferenziali che correggano adeguatamente per il problema dei confronti multipli, così da mantenere sotto controllo il rischio di falsi positivi oltre la soglia convenzionale ($\alpha$ = .05).
+
+Tuttavia, la grande maggioranza delle specificazioni (1030 su 1144, pari al 90.03%) ha mantenuto la significatività anche dopo la correzione. Questo risultato rafforza ulteriormente l’evidenza di robustezza dell’efficacia delle psicoterapie per la depressione nella popolazione adulta, indicando che l’effetto stimato non è un artefatto delle scelte analitiche ma appare stabile attraverso una vasta gamma di specificazioni.
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+#| include: false
+nrow(multi_res_data)
+round(prop.table(table(multi_res_data$sign)), 4)
+```
+
+Inoltre, può essere utile anche visualizzare la *specification curve* associata alla *Multiverse Meta-Analysis*. In questo caso, la @fig-spec_multiverse rappresenta, per ciascuno scenario, l’effetto stimato, la sua significatività e le rispettive combinazioni di decisioni meta-analitiche.
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false 
+#| include: false 
+
+# Un ulteriore modo è quello di fare un modello di regressione predicendo il valore di `b` con tutte le condizioni che abbiamo. Possiamo usare l'indice di effect size $\eta^2$ per capire la varianza spiegata (quindi il fattore dove `b` varia di più) da ogni condizione della multiverse.
+
+dat4lm <- multi_filt |> 
+  unnest(res) |> 
+  select(b, rho, format, diagnosis, type, rob, control, model)
+
+fit_b <- lm(b ~ rho + model + format + diagnosis + type + rob + control, data = multi_res_data)
+
+eta2(fit_b)
+
+```
+
+```{r}
+#| label: fig-spec_multiverse
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 11
+#| fig-width: 11
+#| fig-hold: false 
+#| fig-cap: > 
+#|  Il grafico in alto mostra la *specification curve* dell'intero *multiverse* meta-analitico. Ogni punto rappresenta il
+#|  *summary effect* (calcolato in *Hedges'* $g$) di una specifica meta-analisi e ne riporta il valore sull’asse y. 
+#|  La dimensione del punto riflette l’ampiezza relativa dell numero di meta-analisi incluse in ciascuna specificazione, mentre i punti
+#|  rossi indicano effetti statisticamente significativi (p < .05). La griglia sottostante visualizza le combinazioni di
+#|  scelte metodologiche che compongono ciascuno scenario (es. tipo di controllo: *waiting list*, CAU, altri). Tracciando 
+#|  idealmente una linea verticale è possibile associare ogni effetto alla corrispondente combinazione di decisioni 
+#|  analitiche. Infine, sulla destra, sono riportati i valori di $\eta^2$, che indicano in quale misura ciascun fattore 
+#|  del *multiverse* contribuisce a spiegare la variabilità dei *summary effect*, sulla base di una regressione lineare.
+
+
+
+# Specification curve
+
+top <- multi_res_data |>
+    ggplot(aes(x = specification, y = b)) +
+    geom_point(aes(size = k,
+                   color = factor(sign01c)),
+               alpha = 0.4,
+               position = position_jitter(height = 0.03)) +
+    theme(axis.title.x = element_blank(),
+          axis.text.x = element_blank(),
+          axis.title.y = element_blank(),
+          legend.text = element_text(size = 12),
+          legend.title = element_text(size = 12)) +
+    guides(
+        size = "none",
+        color = "none"
+    ) +
+    labs(color = tex("$p \\leq \\; 0.05$")) +
+    xlim(c(0, 1300)) +
+    scale_color_manual(values = c(scales::alpha("black", 0.5), "firebrick"))
+
+bottom <- multi_res_data |>
+    select(-where(filor::all_same)) |> 
+    mutate(rho = as.factor(rho)) |>
+    pivot_longer(1:7) |>
+    ggplot(aes(x = specification, y = value)) +
+    geom_point(alpha = 0.5,
+               position = position_jitter(height = 0.1)) +
+    facet_grid(name ~ ., scales = "free") +
+    theme(axis.title.y = element_blank(),
+          strip.text.y.right = element_text(size = 15)) +
+    xlab("Specification")
+
+
+temp_eta <- eta2(fit_b) |>
+    filter(param != "Residuals")
+temp_eta <- dplyr::rename(temp_eta, "name" = param)
+
+eta_annot <- multi_res_data |>
+    select(-where(filor::all_same)) |> 
+    mutate(rho = as.factor(rho)) |>
+    pivot_longer(1:7) |> 
+    select(name, value) |> 
+    arrange(name) |> 
+    distinct() |> 
+    left_join(temp_eta, by = "name") |> 
+    group_by(name) |> 
+    mutate(y = mean(1:n()),
+           x = 1300,
+           eta2per = round(eta2per)) |> 
+    select(-value) |> 
+    distinct() |> 
+    mutate(eta2per_s = paste0("$\\eta^2 = ", eta2per, "\\%$"),
+           eta2per_s = tex(eta2per_s, output = "character"))
+
+bottom <- bottom +
+    geom_text(data = eta_annot,
+              aes(x = x, y = y, label = eta2per_s),
+              inherit.aes = FALSE,
+              parse = TRUE)
+
+top / bottom + plot_layout(heights = c(1,3))
+```
+
+Come si nota, la maggior parte delle specificazioni meta-analitiche (90%) risulta significativa anche dopo l'aggiustamento tramite *max-T*. Ciò è indice della robustezza dei risultati circa l'efficacia delle psicoterapie per la depressione nella popolazione adulta.
+
+Infine, l'analisi della varianza calcolata mediante regressione lineare mostra come le variabili *format* (psicoterapia individuale, di gruppo, ecc.), *diagnosis* (clinica, cut-off score, ecc.) e *control* (Waiting List, CAU, altri controlli) spieghino una parte consistente della variabilità ($\eta^2$) degli effetti stimati - rispettivamente del: 25%, 15%, 13%. Questi risultati suggeriscono che i formati psicoterapeutici (individuali, di gruppo ecc.), le modalità e gli strumenti di diagnosi (*self-report* vs *clinician report*) e la natura dei gruppi di controllo rappresentano le variabili di maggiore impatto sui risultati finali.
+
+In ogni caso, i risultati suggeriscono che, pur considerando una molteplicità di scelte analitiche, gli effetti osservati sono robusti e replicabili. La PIMMA si dimostra così un approccio potente e trasparente per valutare la solidità delle conclusioni meta-analitiche, promuovendo una pratica inferenziale metodologicamente solida e replicabile anche in contesti complessi come quelli della psicoterapia per la depressione.
+
+## Limiti e prospettive
+
+Sebbene l’applicazione della PIMMA al dataset di @plessen2023 abbia prodotto risultati robusti e coerenti con la letteratura precedente, è importante sottolineare che l’analisi qui condotta presenta alcune semplificazioni metodologiche. Tali semplificazioni sono state adottate con l’obiettivo principale di presentare il funzionamento del metodo PIMMA in modo chiaro ed efficace. Rispetto allo studio originale degli autori, infatti, sono stati esclusi alcuni sottogruppi clinici, non è stata applicata alcuna procedura quantitativa di correzione per il *publication bias*, e l’analisi è stata limitata a specificazioni univariate. Pertanto, i risultati ottenuti non vanno interpretati come una sintesi esaustiva dell’intera letteratura sul trattamento della depressione, ma piuttosto come una dimostrazione dell'utilizzo e delle potenzialità del metodo stesso.
+
+Un ulteriore limite riguarda le attuali capacità del metodo PIMMA. Sebbene permetta di effettuare inferenze multiple controllando per l’errore del I Tipo in modo rigoroso, la sua applicazione è, ad oggi, limitata a modelli relativamente semplici. In particolare, la PIMMA non consente ancora di modellare formalmente la presenza di moderatori né di implementare modelli meta-analitici multilivello. Inoltre, non integra un trattamento quantitativo del *publication bias*, elemento che potrebbe comunque alterare in parte le stime anche all’interno di un *multiverse* meta-analitico.
+
+Tuttavia, le prospettive di sviluppo per questo approccio sono numerose e promettenti. In primo luogo, la PIMMA potrebbe essere impiegata in contesti di ricerca più ampi per testare ipotesi teoriche, valutare l’efficacia di interventi clinici o confrontare strategie terapeutiche alternative. L’applicazione del metodo in ambiti teorici ancora poco consolidati potrebbe rappresentare un importante contributo per lo sviluppo di nuove linee di ricerca empirica.
+
+Dal punto di vista metodologico, uno degli sviluppi più rilevanti sarà rappresentato dalla possibilità di estendere la PIMMA ai modelli *three-level*, che permetterebbero di gestire in modo appropriato l’aggregazione di effetti multipli all’interno degli studi primari. Parallelamente, un'ulteriore prospettiva riguarda l’integrazione della statistica Bayesiana. Essa consentirebbe non solo di incorporare informazioni a priori, ma anche di stimare la probabilità a posteriori della presenza dell’effetto, mantenendo al tempo stesso l’approccio trasparente e sistematico tipico dell’analisi *multiverse*.
+
+Un’altra prospettiva di grande interesse riguarda la possibilità di esplorare in modo sistematico quali combinazioni di scelte analitiche portano a risultati non significativi. Un’analisi più approfondita dei fattori che determinano l’assenza di significatività in alcune specificazioni permetterebbe di identificare scenari particolarmente fragili o teoricamente meno giustificabili.
+
+Infine, una direzione futura promettente riguarda l’estensione del metodo PIMMA alla meta-analisi multivariata e multilivello. Tali estensioni renderebbero possibile analizzare contemporaneamente più esiti clinici e includere strutture di dati complesse, offrendo una rappresentazione ancora più realistica e completa dell’evidenza empirica.
+
+In sintesi, la PIMMA rappresenta un importante avanzamento metodologico per affrontare in modo inferenziale e trasparente la molteplicità delle scelte analitiche nei contesti meta-analitici. Sebbene siano presenti ancora limiti tecnici e applicativi, le sue potenzialità nel migliorare la robustezza e la replicabilità delle conclusioni scientifiche appaiono significative, soprattutto in ambiti di ricerca complessi come quello della psicoterapia per la depressione.
+

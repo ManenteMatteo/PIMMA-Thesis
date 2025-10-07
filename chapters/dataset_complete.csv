@@ -1,0 +1,416 @@
+"study","g_composite","var_composite","es_id","vi","sei","target_group","format","diagnosis","type","control","region","risk_of_bias","rob","rob_include_best","rob_exclude_worst","n_1","n_2","sample_size"
+"aagaard, 2017",0,0.107142857142857,1,0.0535714285714286,0.231455024943138,"adults","group","diagnosis","cbt-based","cau","europe","some concern",3,0,1,40,35,75
+"abas, 2018",0.630037223409725,0.22683773962399,2,0.149354913798069,0.386464634602015,"general medical","individual","cut-off score","cbt-based","cau","other region","low",4,1,1,13,15,28
+"ahmadpanah, 2016",1.66995332791496,0.27388570758828,4,0.176629083264689,0.420272629687788,"general medical","individual","subclinical depression","cbt-based","cau","other region","some concern",3,0,1,15,15,30
+"alexopoulos, 2016",-0.19306386556286,0.0467424339837596,6,0.03057826378148,0.174866416963007,"general medical","individual","diagnosis","cbt-based","other ctr","north america","some concern",3,0,1,84,84,168
+"alfonso, 2009",2.42383686553447,0.176481987818208,8,0.104995679714302,0.324030368506259,"older adults","individual","cut-off score","not-cbt-based","other ctr","europe","some concern",1,0,1,30,30,60
+"alhusen, 2021",1.45689151068139,0.169645941278066,10,0.0848229706390328,0.291243833649801,"perinatal depression","group","cut-off score","cbt-based","cau","north america","some concern",1,0,1,30,30,60
+"allart van dam, 2003",0.569637930381429,0.0847970051103,11,0.04239850255515,0.205908966670104,"adults","group","subclinical depression","cbt-based","cau","europe","some concern",1,0,1,61,41,102
+"amani, 2021",1.30735305055158,0.26283559225601,12,0.131417796128005,0.362515925343984,"perinatal depression","group","cut-off score","cbt-based","wl","north america","some concern",2,0,1,22,16,38
+"ammerman, 2013",0.880216097030711,0.0627447718808713,13,0.047886846817671,0.218830635007238,"perinatal depression","individual","diagnosis","cbt-based","cau","north america","some concern",3,0,1,47,46,93
+"andersson, 2005",0.870870082341731,0.0791510431804074,17,0.0536431149355283,0.231609833417168,"adults","guided self-help","cut-off score","cbt-based","other ctr","europe","some concern",3,0,1,36,49,85
+"araya, 2021",0.31131149661318,0.0125939065512162,19,0.0120417705469566,0.109735001466973,"general medical","guided self-help","cut-off score","cbt-based","cau","other region","low",4,1,1,217,217,434
+"arean, 1993",0.87623620023304,0.142189616169679,21,0.111943418798865,0.334579465596538,"older adults","group","diagnosis","cbt-based","wl","north america","some concern",1,0,1,19,20,39
+"arjadi, 2018",0.427126290021117,0.0233433149923568,31,0.0130252689191716,0.114128300255334,"adults","guided self-help","diagnosis","cbt-based","other ctr","other region","low",4,1,1,159,154,313
+"ayen, 2004",2.46088067372452,0.336279808509926,33,0.482575757575758,0.694676728828422,"other target groups","group","diagnosis","cbt-based","wl","europe","some concern",1,0,1,11,10,21
+"barber, 2012",0.0772498990479623,0.101725808322949,41,0.0632562500396611,0.25150795223941,"adults","individual","diagnosis","not-cbt-based","other ctr","north america","some concern",3,0,1,51,51,102
+"barnhofer, 2009",1.04000965033407,0.308251405989846,43,0.143404849460457,0.378688327599964,"adults","group","diagnosis","cbt-based","cau","europe","low",4,1,1,16,15,31
+"barrett, 2001",0.151916215107628,0.114700239867058,46,0.0676680762182756,0.260130882861446,"adults","individual","diagnosis","cbt-based","other ctr","north america","low",4,1,1,37,37,74
+"baumeister, 2021",0.312123838524814,0.0258621513693495,48,0.0192493596430076,0.138742061549508,"general medical","guided self-help","diagnosis","cbt-based","cau","europe","low",4,1,1,104,105,209
+"baumgartner, 2021",0.298609127760148,0.0131517103987718,51,0.00890958836810848,0.0943906158900792,"adults","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,221,234,455
+"beach, 1992",1.1659582360818,0.236586645978434,53,0.165124743481976,0.40635543983313,"other target groups","other formats","diagnosis","cbt-based","wl","north america","some concern",1,0,1,15,15,30
+"bedard, 2014",0.353021089612173,0.0725035270240316,55,0.0544314369531734,0.233305458472736,"general medical","group","cut-off score","cbt-based","wl","north america","some concern",3,0,1,38,38,76
+"beeber, 2010",0.818620515629336,0.103554946771052,58,0.0607523250280107,0.246479867388821,"other target groups","individual","cut-off score","not-cbt-based","cau","north america","some concern",2,0,1,34,37,71
+"bendig, 2021",0.315451473205873,0.239181195225554,60,0.119590597612777,0.345818735196313,"general medical","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,18,16,34
+"berger, 2011",0.878211026193933,0.130179868966741,61,0.091266660510358,0.302103724754194,"adults","guided self-help","diagnosis","cbt-based","wl","europe","low",4,1,1,25,26,51
+"beutel, 2014",0.519091790686381,0.0756025801652096,63,0.0378012900826048,0.194425538658389,"general medical","individual","diagnosis","not-cbt-based","cau","europe","low",4,1,1,78,78,156
+"boele, 2018",0.610279919347849,0.171326284036945,64,0.0856631420184723,0.29268266436274,"general medical","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,19,34,53
+"boeschoten, 2017",0.187593195465436,0.0450045473506931,65,0.0263541249679492,0.162339536059301,"general medical","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,74,78,152
+"bohlmeijer, 2011",0.59646942415914,0.0901604427038708,68,0.0450802213519354,0.212321033701175,"adults","group","cut-off score","cbt-based","wl","europe","low",4,1,1,49,44,93
+"bolton, 2003",1.15017977769818,0.0295649426167577,69,0.0171596278958404,0.130994762856537,"adults","group","diagnosis","not-cbt-based","cau","other region","some concern",3,0,1,139,145,284
+"bower, 2021",0.140074737353,0.0362962684423193,71,0.0242790569079977,0.155817383202253,"general medical","group","cut-off score","not-cbt-based","wl","north america","some concern",2,0,1,85,81,166
+"bowman, 1995",0.947203331506817,0.298175744292323,73,0.223800042363906,0.47307509167563,"adults","guided self-help","cut-off score","cbt-based","wl","north america","some concern",1,0,1,10,10,20
+"braun, 2021",0.280660521956205,0.0237629357490824,79,0.0118814678745412,0.109002146192363,"other target groups","guided self-help","cut-off score","not-cbt-based","other ctr","europe","low",4,1,1,171,169,340
+"brown, 1984",0.392572981859311,0.18040671585014,80,0.131612531624088,0.362784414803184,"adults","group","diagnosis","cbt-based","wl","north america","some concern",1,0,1,25,11,36
+"buhrman, 2015",0.572681436649651,0.154318804317722,86,0.0782552812980011,0.279741454378862,"general medical","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,28,24,52
+"buntrock, 2015",0.645503208451978,0.0168280008712982,88,0.0103882973881714,0.101922997346876,"adults","guided self-help","subclinical depression","not-cbt-based","cau","europe","low",4,1,1,202,204,406
+"burmaoğlu, 2021",0.358294730696586,0.203654876478217,91,0.137057484110331,0.370212755196698,"other target groups","group","diagnosis","cbt-based","cau","other region","some concern",1,0,1,15,15,30
+"burns, 2007",0.403554443243698,0.0992759449644778,93,0.0496379724822389,0.222795808942266,"general medical","individual","cut-off score","not-cbt-based","cau","europe","low",4,1,1,50,50,100
+"burns, 2013",0.874513911181328,0.202421789666839,94,0.156025461399587,0.395000584049678,"perinatal depression","individual","cut-off score","cbt-based","cau","europe","low",4,1,1,16,13,29
+"carlbring, 2013",0.773018521048983,0.0896651017516727,98,0.0546537836973204,0.233781487071411,"adults","guided self-help","diagnosis","cbt-based","wl","europe","low",4,1,1,40,40,80
+"carr, 2017",0.336127598564612,0.0660317636403859,101,0.0497969462450945,0.223152293837851,"adults","group","diagnosis","cbt-based","cau","europe","some concern",2,0,1,40,42,82
+"carta, 2012",0.248029997930288,0.126475210749752,104,0.0632376053748758,0.251470883751729,"adults","individual","diagnosis","cbt-based","cau","europe","some concern",1,0,1,34,30,64
+"casanas, 2012",0.349095133600329,0.0324638917451526,105,0.0175114010456429,0.132330650439129,"adults","group","diagnosis","cbt-based","cau","europe","low",4,1,1,119,112,231
+"castonguay, 2004",1.65293696023908,0.399568267972374,107,0.278444889038018,0.527678774481235,"adults","individual","diagnosis","cbt-based","wl","north america","some concern",1,0,1,11,10,21
+"chan, 2012",1.17737281279614,0.188198234675452,111,0.2349849297826,0.484752441750013,"adults","group","diagnosis","cbt-based","wl","east asia","some concern",2,0,1,17,16,33
+"chan, 2013",1.43178149498793,0.393595871291038,115,0.196797935645519,0.443619133543087,"older adults","individual","cut-off score","not-cbt-based","cau","east asia","some concern",3,0,1,14,12,26
+"chen, 2000",0.597830508704193,0.175623384980052,116,0.087811692490026,0.296330377265015,"perinatal depression","group","cut-off score","not-cbt-based","cau","east asia","some concern",1,0,1,30,30,60
+"chesney, 2003",0.0931037232182652,0.0693788713813043,117,0.0482086410088999,0.219564662477594,"general medical","group","subclinical depression","not-cbt-based","wl","north america","some concern",1,0,1,46,38,84
+"chiang, 2015",4.08815098970752,0.306619704336211,119,0.171686306216221,0.414350463033675,"adults","group","diagnosis","cbt-based","cau","east asia","some concern",3,0,1,30,32,62
+"cho, 2008",0.793844091145548,0.380730280243715,121,0.210103022744096,0.458369962741993,"perinatal depression","individual","diagnosis","cbt-based","cau","east asia","some concern",1,0,1,12,10,22
+"choi, 2012",0.540354952417005,0.0885252617885328,123,0.0700034063223414,0.264581568372291,"other target groups","guided self-help","diagnosis","cbt-based","wl","australia","low",4,1,1,32,31,63
+"choi, 2014",0.402371239213939,0.134286683892669,126,0.0901034811676504,0.300172419065527,"older adults","individual","cut-off score","cbt-based","other ctr","north america","some concern",1,0,1,34,34,68
+"choi, 2020b",0.845089249430931,0.0405469721607175,128,0.0243407055303768,0.156015081099158,"other target groups","other formats","cut-off score","cbt-based","other ctr","north america","some concern",2,0,1,93,94,187
+"chowdhary, 2016",0.457659582424265,0.117974506156164,134,0.0758226471806802,0.275359124019307,"adults","individual","cut-off score","cbt-based","cau","other region","some concern",3,0,1,24,31,55
+"choy, 2016",0.971646745246716,0.0941837365486198,137,0.0556503252352016,0.235903211583059,"older adults","group","cut-off score","not-cbt-based","wl","east asia","some concern",1,0,1,39,42,81
+"clark, 2003",0.530009319441825,0.22904314406364,139,0.161111007194309,0.401386356512411,"perinatal depression","group","diagnosis","not-cbt-based","wl","north america","some concern",1,0,1,15,11,26
+"clark, 2008",1.09392644765392,0.319870123549962,143,0.159935061774981,0.399918818980779,"perinatal depression","group","diagnosis","not-cbt-based","wl","north america","some concern",1,0,1,14,15,29
+"cohen, 2010",0.835558137710119,0.253131205303387,144,0.136109014458337,0.368929552161841,"other target groups","other formats","diagnosis","not-cbt-based","wl","north america","some concern",1,0,1,16,14,30
+"cooper, 2003",0.428654875123779,0.0561482435330973,150,0.0448497751682195,0.211777655025783,"perinatal depression","individual","diagnosis","cbt-based","cau","europe","low",4,1,1,42,50,92
+"cramer, 2011",0.477137026207983,0.136127518749082,156,0.0739330185745342,0.271906267994201,"other target groups","group","cut-off score","cbt-based","cau","europe","some concern",3,0,1,48,19,67
+"d'elia, 2020",1.44998634184853,0.680336446416508,159,0.340168223208254,0.583239421857143,"adults","group","diagnosis","cbt-based","other ctr","north america","low",4,1,1,10,6,16
+"davoudi, 2020",0.714226501492164,0.213275240384616,160,0.106637620192308,0.326554161192761,"general medical","group","cut-off score","cbt-based","other ctr","other region","some concern",2,0,1,20,20,40
+"de groot, 2019",0.789364204025405,0.116354617680867,161,0.110082037867051,0.331786132722649,"general medical","individual","diagnosis","cbt-based","cau","north america","low",4,1,1,25,25,50
+"de jong, 2018",0.0569133271252673,0.164927736998216,165,0.110009323362897,0.331676534236139,"general medical","group","diagnosis","cbt-based","wl","north america","some concern",1,0,1,26,14,40
+"dekker, 2012",0.419444705282721,0.199700220902612,167,0.0998501104513059,0.315990680956426,"general medical","individual","cut-off score","cbt-based","cau","north america","low",4,1,1,20,21,41
+"dennis, 2020",0.84520177308011,0.0352187130154634,168,0.022445922669088,0.149819633790395,"perinatal depression","other formats","diagnosis","not-cbt-based","cau","north america","some concern",2,0,1,104,100,204
+"derubeis, 2005",0.454879120400069,0.0952999850970766,170,0.0476499925485383,0.218288782461533,"adults","individual","diagnosis","cbt-based","other ctr","north america","some concern",2,0,1,60,60,120
+"desautels, 2017",1.00295975168205,0.209526312748409,171,0.152006799326937,0.389880493647652,"general medical","individual","cut-off score","cbt-based","wl","north america","low",4,1,1,25,11,36
+"dimidjian, 2006",0.788868426951033,0.0695051849916033,180,0.0598264468730848,0.244594453888646,"adults","individual","diagnosis","cbt-based","other ctr","north america","some concern",3,0,1,29,50,79
+"dimidjian, 2017",0.426615169850515,0.0458846045628245,184,0.0293995275150084,0.171462904195072,"perinatal depression","other formats","cut-off score","cbt-based","cau","north america","low",4,1,1,70,68,138
+"dindo, 2012",1.23835285249997,0.193046115842031,187,0.117589792684313,0.342913681098193,"general medical","group","diagnosis","cbt-based","wl","north america","some concern",2,0,1,31,14,45
+"dindo, 2019",0.300502183397405,0.066336483146869,191,0.0395369622046957,0.198839035917738,"general medical","group","diagnosis","cbt-based","other ctr","north america","some concern",2,0,1,56,47,103
+"dobkin, 2011",1.19689335725896,0.0939791916358469,195,0.0570243754614052,0.238797771056191,"general medical","individual","diagnosis","cbt-based","cau","north america","some concern",3,0,1,41,39,80
+"dobkin, 2020",1.06103142932953,0.0968030056056459,198,0.0591962617437709,0.243302819021422,"general medical","other formats","diagnosis","cbt-based","cau","north america","low",4,1,1,37,35,72
+"dobkin, 2021",0.91227233565893,0.0737250521375567,200,0.0493499715229108,0.222148534820536,"general medical","other formats","diagnosis","cbt-based","cau","north america","low",4,1,1,45,45,90
+"doering, 2013",1.03260251300346,0.118581169835413,202,0.08430122126695,0.290346725944947,"general medical","individual","diagnosis","cbt-based","cau","north america","some concern",3,0,1,45,45,90
+"dong, 2019",2.23115115576577,0.109254838284796,204,0.0798199305134992,0.282524212260647,"general medical","other formats","cut-off score","not-cbt-based","cau","east asia","low",4,1,1,45,45,90
+"duarte, 2009",0.811656344549831,0.0766000611402378,206,0.0508531472999125,0.225506424076815,"general medical","group","diagnosis","cbt-based","cau","other region","low",4,1,1,41,44,85
+"dwight-johnson, 2011",1.06693277988731,0.0680461463655761,208,0.0589900562905681,0.242878686365371,"other target groups","other formats","cut-off score","cbt-based","cau","north america","some concern",3,0,1,50,51,101
+"ebert, 2014",0.756508162424739,0.0470006603628411,212,0.0282723198447488,0.168143747563651,"other target groups","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,75,75,150
+"ebert, 2018",0.479361921852824,0.0295808199544343,215,0.0213432933676842,0.146093440536131,"adults","guided self-help","subclinical depression","not-cbt-based","wl","europe","low",4,1,1,102,102,204
+"ede, 2020",0.693442874402148,0.0523866029320932,222,0.0261933014660466,0.161843447399166,"student population","group","cut-off score","cbt-based","wl","other region","some concern",3,0,1,82,80,162
+"ekers, 2011",0.817691466886837,0.161410916958238,223,0.126166370756942,0.355199057933635,"adults","individual","diagnosis","cbt-based","wl","europe","low",4,1,1,16,22,38
+"ekkers, 2011",0.817973978761845,0.0654431043200204,228,0.0482822015499553,0.219732113151344,"older adults","group","diagnosis","cbt-based","cau","europe","some concern",2,0,1,53,40,93
+"elkin, 1989",0.324475359189773,0.0428281564137472,233,0.0331732482815546,0.182135247224568,"adults","individual","diagnosis","cbt-based","other ctr","north america","low",4,1,1,59,62,121
+"embling, 2002",2.47168963108425,0.378259996956418,241,0.189129998478209,0.434890789139306,"adults","group","diagnosis","cbt-based","wl","europe","some concern",2,0,1,19,19,38
+"eseadi, 2018",9.56162855179596,3.48581455324304,242,1.74290727662152,1.32019213625196,"other target groups","group","cut-off score","cbt-based","cau","other region","some concern",2,0,1,15,15,30
+"euteneuer, 2017",0.73772643457134,0.100662575367027,243,0.0674467969740271,0.259705211680527,"adults","individual","diagnosis","cbt-based","wl","europe","some concern",3,0,1,34,30,64
+"evans, 1995",0.750544029801842,0.112382500983713,245,0.0816713660680785,0.285782025446106,"general medical","group","cut-off score","cbt-based","other ctr","north america","some concern",1,0,1,27,24,51
+"fann, 2015",0.171319987628005,0.079666320574054,249,0.121612847715802,0.348730336672625,"general medical","individual","diagnosis","cbt-based","cau","north america","some concern",2,0,1,18,18,36
+"faramarzi, 2008",1.53824589248588,0.17317622836178,257,0.093661509153468,0.30604167878488,"other target groups","group","cut-off score","cbt-based","cau","other region","some concern",1,0,1,29,30,59
+"fledderus, 2012",0.913995880636764,0.0310400326314062,259,0.0568771188321294,0.238489242592049,"adults","guided self-help","cut-off score","cbt-based","wl","europe","some concern",3,0,1,125,125,250
+"floyd, 2004",1.05582221530262,0.243432458189927,263,0.156301510951347,0.395349858924152,"older adults","guided self-help","diagnosis","cbt-based","wl","north america","some concern",1,0,1,13,14,27
+"flygare, 2020",0.228960648350044,0.0808923773523292,267,0.0539232316140816,0.232213762757683,"adults","guided self-help","cut-off score","cbt-based","other ctr","europe","low",4,1,1,40,35,75
+"folke, 2012",0.662217786680892,0.249640769691246,269,0.124820384845623,0.353299285090733,"other target groups","other formats","diagnosis","cbt-based","cau","europe","some concern",2,0,1,18,16,34
+"fonagy, 2015",0.393230155855438,0.0648784684707598,270,0.0422908175878429,0.205647313592575,"adults","individual","diagnosis","not-cbt-based","cau","europe","low",4,1,1,51,46,97
+"forand, 2018",1.39527202889087,0.101639287441433,275,0.0763894895544263,0.27638648583899,"adults","guided self-help","cut-off score","cbt-based","wl","north america","some concern",2,0,1,45,27,72
+"forsell, 2017",0.897888470520042,0.177545315495093,280,0.106784210282753,0.326778533999332,"perinatal depression","guided self-help","diagnosis","cbt-based","cau","europe","low",4,1,1,21,18,39
+"frangou, 2021",-0.0709601031536395,0.119506516039182,284,0.059753258019591,0.244444795443861,"general medical","individual","cut-off score","cbt-based","cau","europe","some concern",3,0,1,34,33,67
+"freedland, 2009",0.704781119672535,0.0664527276702665,285,0.0552988977134144,0.235157176614737,"general medical","individual","diagnosis","cbt-based","cau","north america","low",4,1,1,41,40,81
+"freedland, 2015",0.651750161555205,0.0365319751477243,293,0.0258814306001568,0.160877066731579,"general medical","individual","diagnosis","cbt-based","cau","north america","low",4,1,1,79,79,158
+"fry, 1983",2.27433661135842,0.0944552402850348,298,0.0842432027403126,0.290246796261927,"older adults","individual","cut-off score","not-cbt-based","other ctr","north america","some concern",1,0,1,NA,NA,NA
+"fuhr, 2019",0.246453248091875,0.0275053569704044,300,0.0160361740455288,0.12663401614704,"perinatal depression","individual","cut-off score","cbt-based","cau","other region","some concern",3,0,1,122,129,251
+"funderburk, 2021",0.222642911765677,0.0575475002515956,304,0.0287737501257978,0.169628270420345,"other target groups","individual","cut-off score","cbt-based","cau","north america","some concern",3,0,1,68,72,140
+"furukawa, 2012",0.673958875599757,0.0537871758621127,305,0.0359005320845684,0.189474357327234,"other target groups","other formats","subclinical depression","cbt-based","wl","east asia","low",4,1,1,58,60,118
+"garcia-pena, 2015",0.596546859991011,0.132577615035109,307,0.0662888075175543,0.257466128874371,"older adults","group","cut-off score","cbt-based","cau","other region","some concern",2,0,1,41,41,82
+"gawrysiak, 2009",1.69993780089406,0.370053576056588,308,0.182242296918767,0.426898462071214,"student population","individual","cut-off score","cbt-based","cau","north america","some concern",2,0,1,14,16,30
+"gellis, 2008",1.7093625330755,0.139664577250007,310,0.074393399615094,0.272751534578807,"general medical","individual","subclinical depression","cbt-based","cau","north america","some concern",2,0,1,30,32,62
+"gellis, 2010",0.830742423973971,0.182056637221812,312,0.124634566191603,0.353036210878718,"general medical","individual","subclinical depression","cbt-based","cau","north america","some concern",2,0,1,18,18,36
+"geraedts, 2014",0.122688839006565,0.0256021414161223,314,0.0174548795154616,0.132116916083678,"other target groups","guided self-help","cut-off score","cbt-based","cau","europe","low",4,1,1,116,115,231
+"ghorbani, 2021",4.49554883094601,0.725939647785414,318,0.362969823892707,0.602469770106938,"general medical","group","cut-off score","cbt-based","wl","other region","some concern",1,0,1,20,20,40
+"gibbons, 2012",0.103591787571692,0.202844167091188,319,0.139744229462571,0.373823794671461,"adults","individual","cut-off score","not-cbt-based","cau","north america","some concern",1,0,1,16,13,29
+"gitlin, 2013",0.475571008987871,0.0298722560699502,324,0.0198947800137889,0.14104885683262,"older adults","individual","cut-off score","not-cbt-based","wl","north america","low",4,1,1,106,102,208
+"goodman, 2015",-0.0106754564891978,0.22293759097062,330,0.0952522860182788,0.308629690759458,"perinatal depression","individual","cut-off score","not-cbt-based","cau","north america","some concern",3,0,1,21,21,42
+"greenberg, 2018",1.07822363395768,0.251807912075644,332,0.169052859529186,0.411160381760191,"adults","group","cut-off score","cbt-based","wl","north america","some concern",1,0,1,16,12,28
+"grote, 2009",1.27068997100595,0.147111262561731,334,0.0886491363693854,0.297740048312929,"perinatal depression","individual","cut-off score","not-cbt-based","cau","north america","some concern",2,0,1,25,28,53
+"hagen, 2017",2.46768987403917,0.367977650504686,338,0.183988825252343,0.428939185960368,"adults","individual","diagnosis","cbt-based","wl","europe","some concern",3,0,1,20,19,39
+"hallford, 2016",1.131740578204,0.333236550625285,339,0.186755131780179,0.432151746242196,"other target groups","individual","cut-off score","not-cbt-based","cau","australia","some concern",3,0,1,14,12,26
+"hallgren, 2015",0.320679855219394,0.0165527827241903,341,0.00827639136209515,0.0909746742895799,"adults","guided self-help","cut-off score","cbt-based","cau","europe","some concern",3,0,1,259,232,491
+"hamamci, 2006",1.40488363297765,0.362849668514031,342,0.242131523738494,0.492068616900624,"student population","group","cut-off score","cbt-based","cau","other region","some concern",1,0,1,10,11,21
+"hamdan-mansour, 2009",0.632207353259551,0.100301235922388,344,0.0501506179611941,0.223943336496521,"student population","group","cut-off score","cbt-based","cau","other region","some concern",3,0,1,44,40,84
+"han, 2020",0.688955395766327,0.16138159508821,345,0.130944509929516,0.361862556683495,"adults","group","diagnosis","cbt-based","wl","east asia","some concern",3,0,1,17,16,33
+"haringsma, 2006",0.491020249512631,0.0590179382131218,349,0.0375210001889714,0.193703381976081,"older adults","group","cut-off score","cbt-based","wl","europe","some concern",2,0,1,52,58,110
+"harley, 2008",0.840403747799521,0.347805785632939,353,0.226209142586901,0.475614489462738,"adults","group","diagnosis","cbt-based","wl","north america","some concern",1,0,1,10,9,19
+"harrer, 2021",0.36445868468213,0.040669217275194,355,0.020334608637597,0.142599469275299,"student population","guided self-help","cut-off score","not-cbt-based","other ctr","europe","low",4,1,1,100,100,200
+"hassiotis, 2013",0.0205302170529389,0.266681507704552,356,0.133340753852276,0.365158532492773,"other target groups","individual","cut-off score","cbt-based","cau","europe","some concern",3,0,1,15,15,30
+"hautzinger, 2004",0.979814002357105,0.0725395262628316,357,0.0460885036629909,0.214682331976786,"older adults","group","diagnosis","cbt-based","wl","europe","some concern",3,0,1,65,35,100
+"hayman, 1980",0.47153027275484,0.300091000692738,362,0.150045500346369,0.387357070861459,"adults","group","cut-off score","not-cbt-based","wl","north america","some concern",2,0,1,NA,NA,NA
+"he, 2019",0.43121423865843,0.123647908226086,363,0.0618239541130432,0.248644232012414,"adults","individual","diagnosis","cbt-based","other ctr","east asia","some concern",3,0,1,33,32.5,65.5
+"heckman, 2011",0.340617258335147,0.0384742471477663,364,0.0668451277066463,0.258544247096404,"general medical","group","cut-off score","not-cbt-based","cau","north america","some concern",3,0,1,104,104,208
+"heckman, 2013",0.227833697307131,0.0252306772901959,368,0.01673907077674,0.129379560892515,"general medical","other formats","cut-off score","not-cbt-based","cau","north america","some concern",3,0,1,118,121,239
+"heckman, 2017",1.15214761044356,0.365677362781892,370,0.182838681390946,0.427596400114578,"general medical","other formats","diagnosis","not-cbt-based","cau","north america","some concern",3,0,1,70,70,140
+"hegerl, 2010",0.924032755640415,0.224062225808142,371,0.112031112904071,0.334710491177183,"adults","group","diagnosis","cbt-based","other ctr","europe","low",4,1,1,47,47,94
+"hemanny, 2019",1.27821532375814,0.118770318025718,372,0.0960621954768764,0.309939018964822,"adults","individual","diagnosis","cbt-based","cau","other region","some concern",3,0,1,24,26,50
+"hermanns, 2015",0.200977307538095,0.0333446228606074,376,0.0222499546769573,0.149164186978501,"general medical","group","subclinical depression","cbt-based","cau","europe","some concern",3,0,1,93,88,181
+"herrmann-lingen, 2016",0,0.0140597973807759,378,0.00702989869038794,0.0838444911153258,"general medical","other formats","cut-off score","not-cbt-based","cau","europe","some concern",3,0,1,284,285,569
+"hoifodt, 2013",0.382106756477621,0.071168085074187,379,0.0390602001270908,0.197636535405503,"adults","guided self-help","cut-off score","cbt-based","wl","europe","some concern",3,0,1,52,54,106
+"holden, 1989",0.717276289045309,0.217840544831026,385,0.108920272415513,0.33003071435173,"perinatal depression","individual","diagnosis","not-cbt-based","cau","europe","some concern",2,0,1,26,26,52
+"honey, 2002",0.288421150032125,0.158118579765384,386,0.090403430016027,0.300671631545158,"perinatal depression","group","cut-off score","cbt-based","cau","europe","some concern",2,0,1,23,22,45
+"horrell, 2014",0.509807210358558,0.0216951720240232,388,0.0108475860120116,0.104151745122257,"adults","group","cut-off score","cbt-based","wl","europe","low",4,1,1,180,202,382
+"hou, 2014",0.711500287129384,0.0399730788266832,389,0.0199865394133416,0.141373757866662,"perinatal depression","other formats","diagnosis","cbt-based","cau","east asia","some concern",1,0,1,104,109,213
+"hsiao, 2014",-0.551585853640786,0.112306873728133,390,0.0561534368640666,0.236967164105212,"adults","group","subclinical depression","not-cbt-based","cau","east asia","low",4,1,1,37,37,74
+"huang, 2016",1.95297589350786,0.195336787602529,391,0.0976683938012644,0.312519429478016,"general medical","group","cut-off score","cbt-based","cau","east asia","some concern",1,0,1,31,30,61
+"hum, 2019",0.0673737164208396,0.140702044691737,392,0.141829893780528,0.376603098474413,"general medical","other formats","cut-off score","cbt-based","wl","north america","some concern",3,0,1,20,11,31
+"hummel, 2017",1.38948154145459,0.0531812478807126,395,0.0389634364394713,0.197391581480749,"general medical","group","cut-off score","cbt-based","wl","europe","some concern",3,0,1,54,89,143
+"hunter, 2012",0.419426037710108,0.174497594050693,400,0.0872487970253465,0.295379073438432,"other target groups","group","cut-off score","cbt-based","cau","north america","some concern",2,0,1,42,42,84
+"husain, 2017",0.888459466085751,0.0302366985535813,401,0.0197599544938232,0.140570105263613,"perinatal depression","group","diagnosis","cbt-based","cau","other region","some concern",3,0,1,112,104,216
+"husain, 2021a",1.45169681965351,0.00987304463002992,403,0.00655226103254359,0.0809460377816208,"perinatal depression","group","diagnosis","cbt-based","cau","other region","some concern",1,0,1,399,370,769
+"husain, 2021b",2.69317612894436,0.120455897540618,405,0.0675163096859593,0.259839007244792,"perinatal depression","group","diagnosis","cbt-based","cau","other region","some concern",2,0,1,48,49,97
+"jalali, 2019",0.972407119792343,0.213864133197764,407,0.106932066598882,0.327004688955497,"other target groups","group","cut-off score","not-cbt-based","wl","other region","some concern",1,0,1,21,21,42
+"jamison, 1995",1.61376703802885,0.131404801266845,408,0.0683165507566813,0.261374349844589,"adults","guided self-help","diagnosis","cbt-based","wl","north america","some concern",1,0,1,33,39,72
+"jarrett, 1999",0.59745966362463,0.0812472845038698,413,0.0583806476261431,0.241620875807831,"adults","individual","diagnosis","cbt-based","other ctr","north america","some concern",3,0,1,36,36,72
+"jelinek, 2016",0.481803626778408,0.103226326741364,419,0.0679515630859091,0.260675206120393,"adults","group","diagnosis","cbt-based","other ctr","europe","some concern",2,0,1,31,29,60
+"jesse, 2015",0.343802821993177,0.120297100333435,422,0.0806359886579564,0.283964766578455,"perinatal depression","group","cut-off score","cbt-based","cau","north america","some concern",3,0,1,19.5,36,55.5
+"jiang, 2014",1.05230617125605,0.0131122076831631,424,0.00655610384158156,0.0809697711592515,"perinatal depression","other formats","cut-off score","not-cbt-based","cau","east asia","some concern",2,0,1,257,514,771
+"johansson, 2012a",0.882329872471246,0.0674137280075349,425,0.0503018966355087,0.224280843220077,"adults","guided self-help","diagnosis","not-cbt-based","other ctr","europe","low",4,1,1,46,46,92
+"johansson, 2012b",0.820805248233001,0.084049126053418,430,0.123313884434781,0.351160767220345,"adults","guided self-help","diagnosis","cbt-based","other ctr","europe","some concern",3,0,1,37,37,74
+"johansson, 2019",1.56171585130392,0.145996079071714,438,0.0966212155360228,0.310839533418809,"adults","guided self-help","diagnosis","cbt-based","wl","europe","low",4,1,1,27,27,54
+"johnson, 2012",0.756832751659074,0.202963040694419,440,0.111469712015889,0.333870801382644,"other target groups","other formats","diagnosis","not-cbt-based","other ctr","north america","some concern",3,0,1,19,19,38
+"johnson, 2019",0.194144841302199,0.0330215247982897,443,0.02199289,0.1483,"other target groups","other formats","diagnosis","not-cbt-based","cau","north america","low",4,1,1,NA,NA,NA
+"joling, 2011",-0.0823344158975156,0.0431276311226633,445,0.0235642131654927,0.153506394542679,"older adults","guided self-help","subclinical depression","cbt-based","cau","europe","low",4,1,1,86,84,170
+"jordans, 2019",0.433023765095515,0.0600057597721823,448,0.0340401889125088,0.184499834451169,"adults","individual","diagnosis","cbt-based","cau","other region","low",4,1,1,60,60,120
+"kamga, 2017",0.428653534317941,0.11696972207265,450,0.0584848610363252,0.241836434468269,"general medical","guided self-help","cut-off score","cbt-based","wl","north america","low",4,1,1,35,35,70
+"kanter, 2015",0.286964017860266,0.147094889210954,451,0.0931357795337911,0.305181551758607,"other target groups","individual","diagnosis","cbt-based","cau","north america","some concern",3,0,1,21,22,43
+"keeley, 2016",0.467584732213863,0.0525947377995811,455,0.0243482342156942,0.156039207302826,"adults","individual","diagnosis","not-cbt-based","cau","north america","low",4,1,1,88,80,168
+"kelly, 1993",0.694400915593835,0.11602951248586,457,0.0767662217100419,0.277067179055986,"general medical","group","cut-off score","cbt-based","other ctr","north america","some concern",1,0,1,27,27,54
+"kenter, 2016",-0.0731200460642744,0.0297634641940698,461,0.0148817320970349,0.121990704961628,"adults","guided self-help","diagnosis","cbt-based","wl","europe","low",4,1,1,136,133,269
+"kessler, 2009",0.511255259547524,0.035231548346901,462,0.0200419202154362,0.141569488998994,"adults","guided self-help","diagnosis","cbt-based","wl","europe","low",4,1,1,113,97,210
+"kim, 2018",0.815832248992452,0.108719521886351,464,0.0742281527995814,0.272448440626078,"general medical","other formats","cut-off score","cbt-based","cau","east asia","some concern",2,0,1,30,30,60
+"king, 2000",0.416167685029746,0.0465026386980094,466,0.0312516108481047,0.176781251404397,"adults","individual","cut-off score","cbt-based","cau","europe","some concern",3,0,1,63,67,130
+"kivi, 2014",-0.15705752940781,0.131717538735039,468,0.0658587693675196,0.25662963462453,"adults","guided self-help","diagnosis","cbt-based","cau","europe","some concern",2,0,1,43,43,86
+"kleiboer, 2015",0.230548095608035,0.0212272678497032,469,0.0189340789456526,0.137601158954613,"adults","other formats","cut-off score","cbt-based","wl","europe","low",4,1,1,107,106,213
+"korrelboom, 2012",0.785098710739443,0.12142950723664,477,0.0707901672663783,0.266064216433511,"adults","group","diagnosis","not-cbt-based","wl","europe","low",4,1,1,31,30,61
+"korte, 2012",0.586172467096576,0.0418989164689391,480,0.0204426262165568,0.142977712307047,"older adults","group","cut-off score","not-cbt-based","wl","europe","low",4,1,1,100,102,202
+"kramer, 2021",0.518193516109849,0.060833029478966,482,0.030416514739483,0.174403310574894,"adults","guided self-help","cut-off score","cbt-based","wl","europe","some concern",3,0,1,67,69,136
+"laidlaw, 2008",0.468083529739193,0.135838133713152,483,0.102065984960159,0.319477675214027,"older adults","individual","diagnosis","cbt-based","cau","europe","some concern",3,0,1,20,20,40
+"lamers, 2010",0.247162163221863,0.0372887075632772,487,0.0171478911820504,0.130949956785218,"general medical","individual","diagnosis","cbt-based","cau","europe","low",4,1,1,111,125,236
+"lamers, 2015",0.343796186684115,0.069998017204965,489,0.0349990086024825,0.187080219698616,"adults","guided self-help","cut-off score","not-cbt-based","wl","europe","low",4,1,1,58,58,116
+"landreville, 1997",0.322343542819605,0.257547146329129,490,0.179421815154974,0.423582123271243,"older adults","guided self-help","cut-off score","cbt-based","wl","north america","some concern",1,0,1,10,13,23
+"lappalainen, 2015",0.669386049091064,0.236908341431627,496,0.110913574743826,0.33303689697063,"adults","guided self-help","diagnosis","cbt-based","wl","europe","some concern",3,0,1,18,20,38
+"larcombe, 1984",2.69615477633512,0.634263926169779,499,0.482705540736041,0.694770135178564,"general medical","group","diagnosis","cbt-based","wl","australia","some concern",1,0,1,9,10,19
+"lee, 2021",0.634206765408073,0.168960212986634,501,0.110126218823671,0.331852706518526,"adults","group","diagnosis","cbt-based","cau","east asia","low",4,1,1,22,16,38
+"lemma, 2013",-0.191686448357161,0.377236542531644,505,0.250462497716061,0.500462284009555,"adults","other formats","cut-off score","not-cbt-based","other ctr","europe","some concern",2,0,1,8,8,16
+"lenze, 2017",-0.29038784988248,0.168649017367703,507,0.0973632189225424,0.312030798035294,"perinatal depression","individual","diagnosis","not-cbt-based","cau","north america","low",4,1,1,21,21,42
+"lenze, 2020",-0.135043348017843,0.268499273780504,509,0.134249636890252,0.366400923702782,"perinatal depression","individual","diagnosis","not-cbt-based","cau","north america","low",4,1,1,14,16,30
+"lerner, 2015",0.513457993092652,0.0253643702035666,510,0.0109964461978923,0.104863941361615,"other target groups","other formats","diagnosis","cbt-based","cau","north america","some concern",3,0,1,190,190,380
+"leung, 2013",0.31251269726672,0.0639429186692723,513,0.0440524389349794,0.209886728820522,"perinatal depression","group","cut-off score","cbt-based","cau","east asia","some concern",2,0,1,47,50,97
+"leung, 2016",0.155018462363724,0.0367395582804027,515,0.024586133034125,0.156799658909466,"perinatal depression","group","cut-off score","cbt-based","other ctr","east asia","some concern",1,0,1,82,82,164
+"lexis, 2011",0.316707404321195,0.0479807211970843,517,0.0292025767750255,0.170887614457647,"other target groups","individual","cut-off score","cbt-based","cau","europe","some concern",3,0,1,69,70,139
+"liang, 2021",0.55089710447599,0.120234637441979,521,0.0818746821344544,0.286137523115117,"student population","group","cut-off score","not-cbt-based","other ctr","east asia","some concern",3,0,1,26,26,52
+"linde, 2011",0.148503951870736,0.0395192771999318,523,0.0197596385999659,0.140568981642345,"other target groups","group","cut-off score","cbt-based","other ctr","north america","low",4,1,1,NA,NA,NA
+"liu, 2009",0.245070491942699,0.137089634259047,524,0.077887400661388,0.279083142918715,"adults","guided self-help","cut-off score","cbt-based","wl","east asia","some concern",2,0,1,27,25,52
+"liu, 2021",1.4806068548836,0.0336326499076353,526,0.0233852060996018,0.15292222238642,"perinatal depression","individual","subclinical depression","cbt-based","cau","east asia","some concern",3,0,1,113,115,228
+"lloyd-williams, 2018",0.282329208012692,0.210395354572909,528,0.12168452664163,0.348833092813211,"general medical","individual","cut-off score","not-cbt-based","cau","europe","some concern",3,0,1,20,14,34
+"losada, 2015",0.772228422172726,0.0754170980730696,531,0.047668181156278,0.218330440287831,"other target groups","individual","cut-off score","cbt-based","other ctr","europe","some concern",2,0,1,45,48,93
+"lovell, 2008",0.182861015494564,0.147990717816363,535,0.0970308769618479,0.311497796078637,"adults","individual","cut-off score","cbt-based","cau","europe","some concern",3,0,1,19,23,42
+"lund, 2019",0.0494837226056217,0.0261667763449061,537,0.023960600975894,0.15479212181469,"perinatal depression","individual","cut-off score","not-cbt-based","cau","other region","low",4,1,1,133,133,266
+"lundgren, 2016",0.265276714488291,0.161452711223203,539,0.0807263556116015,0.284123838513423,"general medical","guided self-help","cut-off score","cbt-based","other ctr","europe","low",4,1,1,25,25,50
+"lustman, 1998",1.09458585620404,0.172973897269722,540,0.110986691292429,0.333146651330055,"general medical","individual","diagnosis","cbt-based","cau","north america","low",4,1,1,24,24,48
+"lynch, 1997",0.929958266602528,0.371698601398602,544,0.185849300699301,0.431102424835793,"adults","other formats","subclinical depression","cbt-based","cau","north america","some concern",1,0,1,11,13,24
+"lynch, 2004",0.0410801231438735,0.256502757212461,545,0.188265386415611,0.433895593911266,"adults","other formats","cut-off score","cbt-based","cau","north america","some concern",1,0,1,9,13,22
+"lynch, 2019",0.575207340827298,0.0363175791863368,549,0.0249570315897334,0.157977946529677,"adults","other formats","diagnosis","not-cbt-based","cau","europe","low",4,1,1,121,62,183
+"lök, 2019",1.76003109931894,0.186329407464822,530,0.0931647037324108,0.305228936590899,"general medical","group","cut-off score","not-cbt-based","cau","other region","some concern",3,0,1,30,30,60
+"maclean, 2020",0.170454545454545,0.086349097688228,553,0.043174548844114,0.207784861922408,"adults","guided self-help","cut-off score","not-cbt-based","other ctr","north america","some concern",3,0,1,47,46,93
+"macpherson, 2013",0.228111124326432,0.0176394009852319,554,0.0114073162484187,0.106805038497342,"adults","individual","cut-off score","not-cbt-based","cau","europe","low",4,1,1,211,151,362
+"mahmoodi, 2021",1.23428209194169,0.17438782903384,556,0.11225995128437,0.335052162035062,"adults","individual","cut-off score","cbt-based","wl","other region","some concern",3,0,1,23,19,42
+"maina, 2005",1.12051351708716,0.351368547150159,558,0.23226997985225,0.481943959244485,"adults","individual","diagnosis","not-cbt-based","wl","europe","some concern",2,0,1,10,10,20
+"malouff, 1988",1.28241789580258,0.214419825465626,560,0.156607728579975,0.395736943663307,"other target groups","group","cut-off score","cbt-based","wl","north america","some concern",1,0,1,15,14,29
+"martin, 2015",1.24197282310467,0.175322391746049,564,0.127227600080808,0.356689781295747,"general medical","individual","diagnosis","cbt-based","wl","australia","some concern",3,0,1,18,26,44
+"matsuzaka, 2017",0.0745754245529616,0.0764111017437345,568,0.0506516888795388,0.225059300806563,"adults","individual","diagnosis","not-cbt-based","cau","other region","low",4,1,1,39,40,79
+"mcclay, 2015",0.845921709242889,0.401811756550426,573,0.200905878275213,0.448225253946286,"adults","group","cut-off score","cbt-based","wl","europe","some concern",2,0,1,NA,NA,NA
+"mccusker, 2021",0.69025886384886,0.0356676517919549,574,0.0172250284722273,0.131244155954569,"general medical","guided self-help","cut-off score","cbt-based","cau","north america","some concern",3,0,1,121,124,245
+"mcindoo, 2016",0.937942588698563,0.191106490001646,576,0.152495095709939,0.39050620444487,"student population","individual","cut-off score","cbt-based","wl","north america","some concern",3,0,1,16,14,30
+"mckee, 2006",0.0731931364599782,0.195373968211498,588,0.0976869841057488,0.312549170700786,"perinatal depression","individual","cut-off score","cbt-based","cau","north america","some concern",1,0,1,21,20,41
+"mennen, 2021",0.385415302826265,0.0706522257340436,589,0.0353261128670218,0.187952421817389,"perinatal depression","group","cut-off score","not-cbt-based","cau","north america","some concern",3,0,1,49,70,119
+"michalak, 2015",0.57242284088028,0.101832611333475,590,0.0693260515005695,0.263298407706103,"adults","other formats","diagnosis","not-cbt-based","cau","europe","low",4,1,1,28,32,60
+"milgrom, 2005",0.721020451485857,0.161684346234733,596,0.123321342747894,0.351171386573414,"perinatal depression","group","diagnosis","not-cbt-based","cau","australia","low",4,1,1,34,34,68
+"milgrom, 2011",0.349290726517456,0.135416980785928,599,0.0938507823252637,0.306350750489147,"perinatal depression","individual","cut-off score","cbt-based","cau","australia","low",4,1,1,22,23,45
+"milgrom, 2015b",0.566499508697449,0.189757574214836,601,0.0948787871074182,0.308024004109125,"perinatal depression","individual","diagnosis","cbt-based","cau","australia","low",4,1,1,23,21,44
+"milgrom, 2016",1.07250929877388,0.194891195169144,602,0.101357468313636,0.318366876910328,"perinatal depression","guided self-help","diagnosis","cbt-based","cau","australia","low",4,1,1,21,22,43
+"milgrom, 2020",1.01250647428377,0.186079639938244,604,0.101357468313636,0.318366876910328,"perinatal depression","guided self-help","diagnosis","cbt-based","cau","australia","low",4,1,1,21,22,43
+"milgrom, 2021",0.247479845199369,0.080858730056207,606,0.0556521616089713,0.235907103769622,"perinatal depression","guided self-help","diagnosis","cbt-based","cau","australia","low",4,1,1,39,38,77
+"miller, 2002",0.449695972054195,0.273787243665348,608,0.136893621832674,0.369991380754571,"adults","other formats","cut-off score","not-cbt-based","cau","north america","some concern",2,0,1,15,15,30
+"miranda, 2003",0.158683733220844,0.04483600714583,609,0.022418003572915,0.14972642910627,"other target groups","other formats","diagnosis","cbt-based","cau","north america","low",4,1,1,90,89,179
+"mohr, 2000",0.567146746844099,0.260578372517388,610,0.130289186258694,0.360955933956895,"general medical","other formats","cut-off score","cbt-based","cau","north america","some concern",2,0,1,16,16,32
+"mohr, 2011",0.236838066633361,0.0707925251492688,611,0.0475800822972796,0.218128591196293,"other target groups","other formats","diagnosis","cbt-based","cau","north america","some concern",2,0,1,41,44,85
+"mohr, 2013",0.491984058302487,0.089596429181746,614,0.0617603993416185,0.248516396524693,"adults","guided self-help","diagnosis","cbt-based","wl","north america","low",4,1,1,34,33,67
+"moldovan, 2013",0.542950568730311,0.134352561262392,618,0.102054254500338,0.319459315876589,"student population","guided self-help","cut-off score","cbt-based","cau","europe","low",4,1,1,21,20,41
+"montero-marin, 2016",0.098449949343263,0.0472737698409365,624,0.0305734797691789,0.174852737379713,"adults","guided self-help","diagnosis","cbt-based","cau","europe","low",4,1,1,64,67,131
+"moon, 2021",1.88608422492379,0.226456683753453,626,0.166808123041641,0.408421501688686,"general medical","group","cut-off score","cbt-based","cau","east asia","low",4,1,1,19,20,39
+"mossey, 1996",0.205110408032174,0.152379018517893,628,0.0761895092589463,0.276024472210249,"older adults","individual","subclinical depression","not-cbt-based","cau","north america","some concern",1,0,1,31,31,62
+"mukhtar, 2011",4.82728506180715,0.279886467431092,629,0.139943233715546,0.374089873847912,"adults","group","diagnosis","cbt-based","wl","east asia","some concern",1,0,1,58,55,113
+"mulcahy, 2010",0.622782339447595,0.121429040598696,630,0.084653726113997,0.290953133878975,"perinatal depression","other formats","diagnosis","not-cbt-based","cau","australia","some concern",2,0,1,23,27,50
+"musa, 2021",0.490569155376959,0.0824439400046672,636,0.0412219700023336,0.203031943305317,"other target groups","group","diagnosis","cbt-based","cau","other region","low",4,1,1,50,50,100
+"mynors-wallis, 1995",0.681187639414389,0.104648872239956,637,0.0773936857211169,0.278197206530038,"adults","individual","diagnosis","cbt-based","other ctr","europe","some concern",2,0,1,29,26,55
+"naeem, 2013",1.18490718376597,0.0457935783968237,641,0.0253036670860575,0.15907126417445,"adults","guided self-help","diagnosis","cbt-based","cau","other region","low",4,1,1,94,89,183
+"naeem, 2015",0.859565258856182,0.0638508946979058,643,0.0319254473489529,0.178676935693874,"adults","other formats","diagnosis","cbt-based","cau","other region","low",4,1,1,69,68,137
+"nakagawa, 2017",0.520863386084036,0.0710884883588714,644,0.0503711516734924,0.224435183680038,"adults","individual","diagnosis","cbt-based","cau","east asia","low",4,1,1,40,40,80
+"nakimuli-mpungu, 2015",0.053225474583709,0.0735756172267566,649,0.0367878086133783,0.191801482302349,"general medical","group","diagnosis","not-cbt-based","other ctr","other region","low",4,1,1,57,52,109
+"nakimuli-mpungu, 2020",2.61250312646632,0.31033078078215,650,0.155165390391075,0.393910383705577,"general medical","group","diagnosis","cbt-based","other ctr","other region","some concern",3,0,1,578,578,1156
+"nasrin, 2017",1.74233729326965,0.311112867776066,651,0.155556433888033,0.394406432361381,"adults","individual","diagnosis","cbt-based","wl","europe","some concern",3,0,1,19,17,36
+"neugebauer, 2006",0.150571049460521,0.42352995500594,652,0.21176497750297,0.460179288433291,"other target groups","other formats","subclinical depression","not-cbt-based","cau","north america","some concern",2,0,1,10,9,19
+"newby, 2014",0.0985759894185636,0.200252878998076,653,0.100126439499038,0.316427621264386,"adults","individual","cut-off score","cbt-based","cau","australia","some concern",2,0,1,20,20,40
+"newby, 2017",0.980044402420868,0.0883066631835852,654,0.0613966081736446,0.247783389624173,"general medical","guided self-help","diagnosis","cbt-based","wl","australia","low",4,1,1,31,46,77
+"nezu, 1986",1.38759073299392,0.511679750927111,657,0.560161400994067,0.748439310160862,"adults","group","diagnosis","cbt-based","wl","north america","some concern",1,0,1,9,9,18
+"nezu, 1989",1.88386349826531,0.363738351765401,664,0.421206634856004,0.649004341168843,"adults","group","diagnosis","cbt-based","wl","north america","some concern",1,0,1,14,14,28
+"ng, 2013",1.43178149498793,0.393595871291038,672,0.196797935645519,0.443619133543087,"older adults","individual","cut-off score","not-cbt-based","cau","east asia","some concern",1,0,1,14,12,26
+"ngai, 2015",0.442320013523553,0.0206469758313564,673,0.0103234879156782,0.101604566411546,"perinatal depression","other formats","cut-off score","cbt-based","cau","east asia","low",4,1,1,197,200,397
+"niedermoser, 2020",0.527394579534291,0.230786663461643,674,0.153064806881262,0.391234976556623,"other target groups","group","diagnosis","not-cbt-based","cau","europe","low",4,1,1,14,13,27
+"nobis, 2015",0.970344753912628,0.0270257580771437,676,0.0171872969679578,0.131100331685156,"general medical","guided self-help","cut-off score","not-cbt-based","other ctr","europe","some concern",3,0,1,129,127,256
+"nollett, 2016",-0.120533955336327,0.156961205466362,680,0.101675453515213,0.318865886408711,"general medical","individual","cut-off score","cbt-based","cau","europe","some concern",3,0,1,22,22,44
+"northwood, 2020",0.919014199385506,0.0414397614303054,682,0.0207198807151527,0.143944019379593,"other target groups","individual","diagnosis","not-cbt-based","cau","north america","low",4,1,1,112,102,214
+"nyström, 2017",0.815970047296298,0.0601170638258089,683,0.0388740489373489,0.197165029701894,"adults","guided self-help","diagnosis","cbt-based","wl","europe","low",4,1,1,63,53,116
+"o'hara, 2000",0.964205036166716,0.0693503145564336,685,0.0465227923229576,0.215691428487452,"perinatal depression","individual","diagnosis","not-cbt-based","wl","north america","some concern",3,0,1,48,51,99
+"o'mahen, 2013a",2.29432111751433,0.383794566906122,694,0.198708538614423,0.445767359296778,"perinatal depression","individual","diagnosis","cbt-based","cau","europe","low",4,1,1,30,25,55
+"o'neil, 2014",0.114060269432689,0.050021118661006,697,0.0331207202480788,0.181990989469476,"general medical","other formats","cut-off score","cbt-based","cau","australia","low",4,1,1,61,60,121
+"oehler, 2020",0.183858471534845,0.022926093533798,699,0.0152626100223018,0.123541936290078,"adults","guided self-help","diagnosis","cbt-based","other ctr","europe","some concern",3,0,1,135,129,264
+"olukolade, 2017",0.689129044671873,0.359872647249142,701,0.303803174117467,0.551183430554173,"general medical","individual","cut-off score","cbt-based","wl","other region","some concern",2,0,1,10,10,20
+"omidi, 2013",1.58186750598229,0.132135010931263,703,0.0894885132206329,0.29914630738258,"adults","group","diagnosis","cbt-based","cau","other region","some concern",1,0,1,30,30,60
+"onuigbo, 2019",1.73597958140038,0.170598004937027,705,0.0852990024685137,0.292059929583833,"general medical","group","cut-off score","cbt-based","cau","other region","low",4,1,1,33,32,65
+"onyechi, 2016",10.3095977148695,1.12581549808123,706,1.67364499533636,1.29369432067099,"general medical","individual","cut-off score","cbt-based","other ctr","other region","some concern",1,0,1,40,40,80
+"pace, 1993",0.837967765168177,0.103486408252601,708,0.0593090959317968,0.243534588779082,"student population","individual","cut-off score","cbt-based","wl","north america","some concern",1,0,1,31,43,74
+"pagoto, 2013",0.431097229817415,0.0456022307251129,710,0.0361478839802538,0.190125968716148,"other target groups","other formats","diagnosis","cbt-based","other ctr","north america","low",4,1,1,68,68,136
+"patel, 2017",0.541447066452164,0.0148011185154974,714,0.00887385327319719,0.0942011320165378,"adults","individual","cut-off score","cbt-based","cau","other region","low",4,1,1,230,236,466
+"pecheur, 1984",1.91330881741163,0.545062637433641,716,0.437490631089792,0.661430745497812,"student population","individual","diagnosis","cbt-based","wl","north america","some concern",1,0,1,7,7,14
+"peden, 2000",1.12553955838199,0.208794010577246,720,0.104397005288623,0.323105254195321,"student population","group","cut-off score","cbt-based","cau","north america","some concern",1,0,1,37,37,74
+"penckofer, 2012",0.647860115027791,0.104059870356684,721,0.0670642946343612,0.258967748251324,"general medical","group","cut-off score","cbt-based","cau","north america","some concern",3,0,1,29,36,65
+"perini, 2009",0.619973030345563,0.145204587363104,723,0.100300564407416,0.316702643511885,"adults","guided self-help","diagnosis","cbt-based","wl","australia","some concern",2,0,1,27,17,44
+"petersen, 2014",0.921460066664929,0.261490311309748,727,0.130745155654874,0.361586995970367,"general medical","group","diagnosis","not-cbt-based","cau","other region","some concern",2,0,1,17,17,34
+"pibernik-okanovic, 2009",-0.138791942000791,0.0128617164643251,728,0.00643085823216257,0.0801926320316435,"general medical","group","cut-off score","cbt-based","cau","europe","some concern",3,0,1,NA,NA,NA
+"pibernik-okanovic, 2015",0.0824581988981727,0.0663946288992232,729,0.0331973144496116,0.182201301997575,"general medical","group","subclinical depression","cbt-based","cau","europe","low",4,1,1,64,57,121
+"pihlaja, 2020",0.471482712852266,0.0822574680429284,730,0.0411287340214642,0.202802204182953,"adults","guided self-help","diagnosis","cbt-based","cau","europe","some concern",2,0,1,50,50,100
+"poleshuck, 2014",0.17118626903568,0.119587231282969,731,0.0803037573990457,0.283379176015186,"general medical","individual","diagnosis","not-cbt-based","cau","north america","some concern",3,0,1,26,24,50
+"pot, 2010",0.386884179229663,0.0477068089954936,733,0.0238534044977468,0.154445474189912,"older adults","group","subclinical depression","not-cbt-based","other ctr","europe","some concern",3,0,1,83,88,171
+"pots, 2014",0.530881094492582,0.0536497517418602,734,0.0273041456110598,0.165239661132126,"adults","group","cut-off score","cbt-based","wl","europe","low",4,1,1,76,75,151
+"pots, 2016",0.594128818237734,0.042084646631897,736,0.0246194610822538,0.156905898812804,"adults","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,82,87,169
+"power-michael, 2012",0.519129949265512,0.207406437601606,738,0.14759756117226,0.384184280225337,"adults","individual","diagnosis","cbt-based","wl","europe","some concern",2,0,1,22,10,32
+"prendergast, 2001",0.12469066151799,0.172622894728322,740,0.110223440167454,0.331999156877625,"perinatal depression","individual","diagnosis","cbt-based","other ctr","australia","some concern",2,0,1,17,20,37
+"preschl, 2012",0.71222920302055,0.239738616795964,743,0.119869308397982,0.346221473045768,"older adults","individual","cut-off score","not-cbt-based","wl","europe","some concern",3,0,1,20,16,36
+"propst, 1992",0.526899125998331,0.230880725022462,744,0.196740778044192,0.443554706934998,"other target groups","individual","cut-off score","cbt-based","wl","north america","some concern",1,0,1,10,11,21
+"psarraki, 2021",0.537787673762831,0.100571242323666,765,0.0679024729530786,0.260581029534152,"adults","other formats","diagnosis","not-cbt-based","cau","europe","some concern",2,0,1,30,32,62
+"puckering, 2010",0.81904740766031,0.754673944476576,767,0.377336972238288,0.614277601934409,"perinatal depression","group","cut-off score","not-cbt-based","wl","europe","some concern",2,0,1,10,4,14
+"pugh, 2016",0.821164625564922,0.152215039715832,768,0.107672154040657,0.32813435364292,"perinatal depression","guided self-help","cut-off score","cbt-based","wl","north america","some concern",3,0,1,21,20,41
+"qiu, 2013",2.1670561620164,0.206714265503958,771,0.103357132751979,0.321492041506441,"general medical","group","diagnosis","cbt-based","wl","east asia","low",4,1,1,31,31,62
+"raevuori, 2021",-0.258143212699748,0.0650770022206006,772,0.0325385011103003,0.180384315034041,"student population","guided self-help","diagnosis","not-cbt-based","cau","europe","low",4,1,1,63,61,124
+"rahman, 2008",0.730572324266359,0.00906279369382805,773,0.0053465367735886,0.0731200162307736,"perinatal depression","group","diagnosis","cbt-based","other ctr","other region","low",4,1,1,412,386,798
+"ransom, 2008",0.361972977972376,0.130821008720637,775,0.0508714405848808,0.225546980881768,"general medical","other formats","diagnosis","not-cbt-based","cau","north america","some concern",2,0,1,41,38,79
+"raue, 2019",0.794203367428169,0.634740749446632,779,0.317370374723316,0.56335634790363,"older adults","individual","cut-off score","cbt-based","cau","north america","high",0,0,0,6,8,14
+"raya-tena, 2021",0.144392259835099,0.0194434660994843,780,0.0105887266315595,0.102901538528632,"general medical","group","cut-off score","not-cbt-based","cau","europe","some concern",3,0,1,204,176,380
+"rehm, 1981",0.482605903685374,0.211573572792855,782,0.282875184817925,0.531860117716985,"adults","group","cut-off score","not-cbt-based","wl","north america","some concern",1,0,1,6,14,20
+"reins, 2019",0.275127733260919,0.044464626633219,794,0.0309226720172547,0.175848434787617,"adults","guided self-help","diagnosis","not-cbt-based","other ctr","europe","low",4,1,1,65,66,131
+"richards, 2015",0.766345956982135,0.0532338418747198,801,0.0224043552399477,0.14968084459926,"adults","guided self-help","cut-off score","cbt-based","wl","europe","some concern",3,0,1,96,92,188
+"richards, 2018",-0.419790727479991,0.279528412150961,804,0.151893821720794,0.389735579233913,"general medical","individual","cut-off score","cbt-based","cau","europe","low",4,1,1,13,14,27
+"rief, 2018",0.870169301837612,0.0868585278126327,807,0.342497373904578,0.585232751906947,"adults","individual","diagnosis","not-cbt-based","wl","europe","low",4,1,1,43,43,86
+"ritvo, 2021",0.566492967891948,0.139206345115955,813,0.0911912410750652,0.301978875213259,"adults","guided self-help","diagnosis","cbt-based","cau","north america","low",4,1,1,22,23,45
+"rizvi, 2015",0.138135946864667,0.20571640705801,815,0.147500261571634,0.384057627930541,"adults","individual","diagnosis","cbt-based","wl","north america","some concern",1,0,1,18,18,36
+"rohan, 2007",1.2096405760405,0.21429037725351,817,0.150466874166296,0.387900598306185,"adults","group","diagnosis","cbt-based","wl","north america","some concern",3,0,1,15,15,30
+"rohde, 2016",0.706168251993804,0.10858515595559,829,0.0736015166031685,0.271295994447335,"student population","group","subclinical depression","cbt-based","other ctr","north america","some concern",3,0,1,28,31,59
+"rohricht, 2013",0.920473721010897,0.388137402287924,831,0.194068701143962,0.440532292963821,"adults","group","diagnosis","not-cbt-based","wl","europe","low",4,1,1,11,12,23
+"ross, 1985",1.47754365524796,0.18795649838879,832,0.125527338950167,0.354298375596286,"adults","other formats","diagnosis","cbt-based","wl","europe","some concern",1,0,1,20,21,41
+"rosso, 2017",0.924261564921279,0.079644191546312,834,0.0561165352058593,0.236889288921765,"adults","guided self-help","diagnosis","cbt-based","other ctr","north america","some concern",2,0,1,37,40,77
+"rude, 1986",1.0279,0.21346578,840,0.10673289,0.3267,"adults","group","cut-off score","not-cbt-based","wl","north america","some concern",1,0,1,NA,NA,NA
+"russell, 2019",0.317814927881831,0.110614747547116,841,0.0774652680345918,0.278325830699545,"other target groups","guided self-help","cut-off score","cbt-based","cau","europe","some concern",3,0,1,31,23,54
+"ruwaard, 2009",0.71338958345987,0.127793603103303,844,0.0899157019715648,0.299859470371647,"adults","guided self-help","cut-off score","cbt-based","wl","europe","some concern",3,0,1,36,18,54
+"ruzickova, 2021",0.64258107804303,0.123860207612457,849,0.0619301038062284,0.248857597445263,"adults","other formats","cut-off score","cbt-based","cau","europe","some concern",1,0,1,34,34,68
+"safren, 2009",0.644350032114065,0.140665947983332,850,0.0949299782419231,0.308107088918647,"general medical","individual","diagnosis","cbt-based","wl","north america","some concern",2,0,1,23,22,45
+"safren, 2014",0.652121556450411,0.097039243784241,852,0.0485196218921205,0.220271700161688,"general medical","individual","diagnosis","cbt-based","cau","north america","some concern",3,0,1,45,42,87
+"safren, 2016",0.383044076476768,0.0392991074741528,853,0.0319886163190148,0.178853617014068,"general medical","individual","diagnosis","cbt-based","cau","north america","some concern",3,0,1,94,49,143
+"safren, 2021",0.643536437611163,0.039216572956951,857,0.0261857434595113,0.161820095969293,"general medical","individual","diagnosis","cbt-based","cau","other region","some concern",3,0,1,80,81,161
+"salamanca-sanabria, 2020",0.962963060961021,0.127371510082291,859,0.0716260176594158,0.267630375068705,"student population","guided self-help","cut-off score","cbt-based","wl","other region","some concern",3,0,1,21,54,75
+"saloheimo, 2016",0.22170684381482,0.0842507786413281,861,0.0545119818426612,0.23347801147573,"adults","individual","diagnosis","not-cbt-based","cau","europe","some concern",3,0,1,46,46,92
+"sander, 2020",0.284238205481397,0.0304422447978749,863,0.0138653294640968,0.11775113360005,"general medical","guided self-help","subclinical depression","cbt-based","cau","europe","low",4,1,1,149,146,295
+"savard, 2006",0.649494940878263,0.157081033454435,867,0.116755028928115,0.341694350155391,"general medical","individual","cut-off score","cbt-based","wl","north america","some concern",3,0,1,21,16,37
+"savari, 2021",1.65067467038298,0.362606766500278,870,0.181303383250139,0.425797349980174,"student population","group","diagnosis","cbt-based","wl","other region","some concern",3,0,1,15,15,30
+"schlicker, 2020",0.339606227337319,0.0776369041129133,871,0.0539936859541545,0.23236541471173,"general medical","guided self-help","diagnosis","cbt-based","wl","europe","low",4,1,1,40,36,76
+"schmidt, 1983",1.1458215257801,0.235502728647621,874,0.255396224583879,0.505367415435423,"adults","guided self-help","cut-off score","cbt-based","wl","north america","some concern",1,0,1,12,10,22
+"schramm, 2020",0.275425879165724,0.240219035639256,894,0.181850909968574,0.426439808142456,"other target groups","group","diagnosis","not-cbt-based","cau","europe","some concern",3,0,1,12,14,26
+"schulberg, 1996",0.574803955660427,0.0400766374918956,897,0.0221432249205717,0.148805997596104,"adults","individual","diagnosis","not-cbt-based","cau","north america","some concern",2,0,1,93,92,185
+"schuster, 2017",0.895601857041548,0.17195696791531,899,0.095189819594192,0.30852847452738,"adults","group","cut-off score","not-cbt-based","wl","europe","some concern",3,0,1,22,24,46
+"scogin, 1987",1.05645970532813,0.32126487379966,901,0.274247040346975,0.523686013129026,"older adults","guided self-help","cut-off score","cbt-based","wl","north america","some concern",1,0,1,9,8,17
+"scogin, 1989",0.65056808477309,0.13508852499353,907,0.101207633579704,0.318131472161595,"older adults","guided self-help","cut-off score","cbt-based","wl","north america","some concern",1,0,1,19,21,40
+"scogin, 2014",0.375733436231834,0.0405928020115665,911,0.0305132340140512,0.174680376728616,"older adults","individual","cut-off score","cbt-based","other ctr","north america","low",4,1,1,70,64,134
+"scott, 1990",0.785103559181005,0.158687885640923,914,0.240999672520703,0.490917174807221,"adults","group","diagnosis","cbt-based","wl","europe","some concern",2,0,1,10,10,20
+"scott, 1992",0.296820133526014,0.0982709714531887,919,0.0694986606846373,0.263625986360672,"adults","individual","diagnosis","cbt-based","cau","europe","some concern",3,0,1,29,29,58
+"scott, 1997",0.565359741153437,0.184206273869294,923,0.121340318198607,0.348339372162561,"adults","individual","diagnosis","cbt-based","cau","europe","some concern",1,0,1,18,16,34
+"segre, 2015",0.421828624339589,0.102780454994573,926,0.0734102689030237,0.270943294626429,"other target groups","individual","cut-off score","not-cbt-based","wl","north america","some concern",3,0,1,39,21,60
+"selmi, 1990",1.05761181071188,0.256473976485748,932,0.283699314198546,0.532634315641178,"adults","guided self-help","diagnosis","cbt-based","wl","north america","some concern",2,0,1,12,12,24
+"serfaty, 2009",0.175169430808818,0.05018687034386,942,0.0339314121297966,0.184204810278659,"older adults","individual","diagnosis","cbt-based","cau","europe","low",4,1,1,64,55,119
+"serfaty, 2019",0.0990314334290535,0.0409779362673605,944,0.0271512579780371,0.164776387804919,"general medical","individual","diagnosis","cbt-based","cau","europe","low",4,1,1,69,79,148
+"serrano, 2004",0.953068709718719,0.208880290400018,948,0.104440145200009,0.323172005594558,"older adults","individual","cut-off score","not-cbt-based","cau","europe","some concern",1,0,1,20,23,43
+"serrano-selva, 2012",0.384854998826504,0.361819175846259,946,0.243527644464058,0.493485201869376,"older adults","individual","diagnosis","not-cbt-based","other ctr","europe","some concern",2,0,1,9,8,17
+"shaw, 1977",1.2436212183229,0.371437774853063,949,0.254016,0.504,"student population","group","cut-off score","cbt-based","wl","north america","some concern",1,0,1,8,8,16
+"sheeber, 2012",0.867606161250081,0.121068736662161,952,0.0632159656183506,0.2514278537043,"perinatal depression","guided self-help","cut-off score","cbt-based","wl","north america","low",4,1,1,34,35,69
+"sheeber, 2017",0.310839419174482,0.0228316681013614,954,0.0152181513755424,0.123361871644128,"perinatal depression","guided self-help","cut-off score","cbt-based","other ctr","north america","some concern",3,0,1,134,132,266
+"shih, 2021",0.512363236996673,0.145128454280833,956,0.0725642271404165,0.269377480759652,"older adults","group","cut-off score","cbt-based","other ctr","east asia","some concern",2,0,1,28,29,57
+"sikander, 2019",0.220082824816712,0.0149844310598234,957,0.00930878298765822,0.0964820345331618,"perinatal depression","other formats","cut-off score","cbt-based","cau","other region","low",4,1,1,223,211,434
+"simoni, 2013",-0.156015789504591,0.151961796175225,960,0.102467232074017,0.320105032878299,"general medical","individual","cut-off score","cbt-based","cau","north america","low",4,1,1,20,20,40
+"simpson, 2003",0.0141594210135573,0.0511591532392549,962,0.0307821503320328,0.175448426416519,"adults","individual","diagnosis","not-cbt-based","cau","europe","low",4,1,1,65,65,130
+"simson, 2008",0.228835861117436,0.268510515701526,964,0.134255257850763,0.366408594127872,"general medical","individual","cut-off score","not-cbt-based","cau","europe","some concern",2,0,1,15,15,30
+"sinniah, 2017",0.692536285026001,0.0969481929455753,965,0.0691046958741803,0.262877720383794,"other target groups","individual","diagnosis","cbt-based","cau","east asia","some concern",2,0,1,33,36,69
+"sirey, 2021",0.792372393875354,0.452048357788892,969,0.226024178894446,0.475420002623413,"other target groups","individual","cut-off score","not-cbt-based","cau","north america","some concern",2,0,1,25,25,50
+"smit, 2006",-0.0782037103790336,0.0653752851948705,970,0.0854276646396181,0.292280113315323,"adults","individual","diagnosis","cbt-based","cau","europe","low",4,1,1,36,36,72
+"smith, 2017a",0.632816269479744,0.0553560577355504,976,0.0458285987981102,0.21407615186683,"adults","other formats","diagnosis","cbt-based","wl","australia","low",4,1,1,47,48,95
+"songprakun, 2012",0.6028,0.15081032,982,0.07540516,0.2746,"adults","guided self-help","diagnosis","cbt-based","cau","east asia","low",4,1,1,26,28,54
+"spek, 2007",0.341859880466643,0.036006638651414,983,0.0203349302582525,0.142600596977195,"older adults","group","subclinical depression","cbt-based","wl","europe","low",4,1,1,99,100,199
+"spinelli, 2003",0.738868114160187,0.216620163069675,987,0.157402104518499,0.396739340774896,"perinatal depression","individual","diagnosis","not-cbt-based","other ctr","north america","some concern",2,0,1,21,21,42
+"spinelli, 2013",-0.149845429598611,0.123860703091195,991,0.0619303515455973,0.248858095198041,"perinatal depression","individual","diagnosis","not-cbt-based","other ctr","north america","some concern",1,0,1,43,43,86
+"spruill, 2021",0.119920834154173,0.119862559176199,992,0.0599312795880997,0.244808659136273,"general medical","other formats","cut-off score","not-cbt-based","cau","north america","low",4,1,1,35,32,67
+"sreevani, 2013",0.915185875121748,0.296158095155982,993,0.148079047577991,0.384810404716389,"adults","group","diagnosis","not-cbt-based","cau","other region","some concern",2,0,1,15,15,30
+"stiles-shields, 2018",1.16993027324877,0.391482621315708,994,0.2236312792984,0.472896689878879,"adults","guided self-help","cut-off score","cbt-based","wl","north america","some concern",3,0,1,10,10,20
+"strauss, 2012",1.82587515261335,0.412030346977582,996,0.206015173488791,0.453888944003697,"adults","group","diagnosis","cbt-based","cau","europe","some concern",2,0,1,14,14,28
+"strong, 2008",0.43841106538001,0.0334127738906076,997,0.0207581777443224,0.144076985477634,"general medical","individual","diagnosis","cbt-based","cau","europe","low",4,1,1,97,99,196
+"sugg, 2018",0.880679931768128,0.116759204125465,1001,0.0670127030935327,0.258868119113831,"adults","individual","diagnosis","not-cbt-based","cau","europe","low",4,1,1,33,30,63
+"swartz, 2008",0.848206933031058,0.163220951090746,1004,0.112336595529731,0.335166519106146,"other target groups","individual","diagnosis","not-cbt-based","cau","north america","some concern",1,0,1,23,17,40
+"szumska, 2020",1.42290066444887,0.527028280018544,1006,0.263514140009272,0.513336283550337,"adults","group","diagnosis","cbt-based","wl","europe","some concern",1,0,1,12,8,20
+"takagaki, 2016",0.891356573517572,0.0747936518712796,1007,0.0373968259356398,0.193382589535976,"student population","group","subclinical depression","cbt-based","cau","east asia","low",4,1,1,62,56,118
+"talbot, 2011",0.30792185100155,0.117959169734146,1008,0.0784992490065175,0.280177174313893,"other target groups","individual","diagnosis","not-cbt-based","cau","north america","some concern",2,0,1,31,22,53
+"taylor, 1977",1.49120130122696,0.450227423991338,1010,0.393344377314364,0.62717172872696,"student population","individual","cut-off score","cbt-based","wl","north america","some concern",1,0,1,7,7,14
+"taylor, 2009",1.59240005577145,0.215201262800957,1016,0.119507162044727,0.345698079318828,"general medical","individual","cut-off score","cbt-based","wl","north america","some concern",2,0,1,19,21,40
+"teasdale, 1984",1.4637061739557,0.444811130385868,1019,0.222405565192934,0.47159894528395,"adults","individual","diagnosis","cbt-based","cau","europe","some concern",1,0,1,17,17,34
+"teichman, 1995",0.814889248420398,0.260363093300662,1020,0.501038820209363,0.707840956860623,"adults","individual","diagnosis","cbt-based","wl","other region","some concern",1,0,1,15,15,30
+"teri, 1997",0.968660883533725,0.240164503346739,1024,0.242940565324242,0.492890013415003,"general medical","other formats","diagnosis","cbt-based","cau","north america","some concern",1,0,1,23,23,46
+"thomas, 2019",0.210023266953032,0.210725004699795,1028,0.109771395698425,0.331317665841145,"general medical","individual","cut-off score","cbt-based","cau","europe","low",4,1,1,18,21,39
+"titov, 2010",1.06097169898678,0.0718047657874472,1030,0.137279119793399,0.370511969838221,"adults","guided self-help","diagnosis","cbt-based","wl","australia","some concern",3,0,1,46,46,92
+"titov, 2015a",2.17400664866961,0.277214426759306,1042,0.127398857890046,0.356929766046551,"older adults","guided self-help","cut-off score","cbt-based","wl","australia","low",4,1,1,27,25,52
+"tobin, 2017",0.0470566942672277,0.025424637900992,1044,0.012712318950496,0.11274891995268,"general medical","other formats","cut-off score","cbt-based","other ctr","north america","low",4,1,1,162,153,315
+"tomasino, 2017",0.47198079405972,0.24598912864898,1045,0.204792641231907,0.452540209519449,"older adults","guided self-help","cut-off score","cbt-based","wl","north america","some concern",1,0,1,9,12,21
+"tong, 2019",0.273344272174779,0.0950945991057017,1047,0.0477379874998912,0.218490245777452,"adults","group","diagnosis","cbt-based","wl","east asia","some concern",2,0,1,43,45,88
+"tovote, 2014",0.658330784789552,0.0981678166971501,1051,0.0658869490855661,0.256684532228894,"general medical","individual","cut-off score","cbt-based","wl","europe","some concern",3,0,1,32,31,63
+"town, 2017",1.17839349207698,0.228370381098589,1057,0.358076184395129,0.598394672766335,"adults","individual","diagnosis","not-cbt-based","cau","north america","low",4,1,1,30,30,60
+"trevillion, 2020",0.323175392768037,0.132419757270978,1061,0.0825818646397373,0.287370605037706,"perinatal depression","other formats","diagnosis","cbt-based","cau","europe","low",4,1,1,24,26,50
+"tulbure, 2018",0.884768558164534,0.115291112346176,1063,0.15042157607771,0.387842205126917,"adults","guided self-help","diagnosis","cbt-based","wl","europe","some concern",2,0,1,34,34,68
+"turner, 1979",0.103494936479406,0.23744729347463,1069,0.185495705437511,0.43069212372356,"adults","individual","cut-off score","cbt-based","other ctr","north america","some concern",1,0,1,17,17,34
+"turner, 2013",-0.119848288828521,0.134522935160443,1075,0.0799743245161455,0.282797320560407,"general medical","group","cut-off score","cbt-based","other ctr","australia","some concern",3,0,1,21,31,52
+"tyson, 1987",-0.137511167591066,0.212915232071921,1079,0.182585954557451,0.42730077762327,"adults","group","cut-off score","not-cbt-based","other ctr","north america","some concern",1,0,1,11,11,22
+"unlu-ince, 2013",0.694848721342726,0.128224945293485,1085,0.11126854614845,0.333569402296508,"other target groups","guided self-help","cut-off score","cbt-based","wl","europe","some concern",3,0,1,49,49,98
+"van bastelaar, 2011",0.461079892450921,0.0362203658598751,1088,0.0255089761644643,0.159715297214964,"general medical","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,125,125,250
+"van lieshout, 2021",0.508901085162625,0.020496282034228,1090,0.010248141017114,0.101233102378194,"perinatal depression","other formats","cut-off score","cbt-based","wl","north america","low",4,1,1,202,201,403
+"van schaik, 2006",0.10813469938906,0.0421185046436957,1091,0.0280091214252705,0.167359258558559,"older adults","individual","diagnosis","not-cbt-based","cau","europe","some concern",3,0,1,69,74,143
+"vazquez, 2017",2.08301869778102,0.235147018309059,1098,0.15030923927331,0.387697355257048,"other target groups","other formats","subclinical depression","cbt-based","cau","europe","low",4,1,1,22,19,41
+"vazquez, 2020",1.05138957869846,0.0546624409782167,1100,0.0320800266462214,0.179108979803419,"other target groups","other formats","subclinical depression","cbt-based","cau","europe","low",4,1,1,70,80,150
+"vazquez-gonzalez, 2013",1.65989995168986,0.0579189720844425,1096,0.0300316159849964,0.173296324210863,"other target groups","group","cut-off score","cbt-based","cau","europe","some concern",3,0,1,89,84,173
+"verduyn, 2003",0.165340919057097,0.143104280827714,1106,0.110423513020535,0.332300335570903,"other target groups","group","cut-off score","cbt-based","cau","europe","some concern",2,0,1,30,13,43
+"vernmark, 2010",0.833996902550664,0.114455464273933,1110,0.137121335195964,0.370298980819505,"adults","guided self-help","diagnosis","cbt-based","wl","europe","low",4,1,1,29,29,58
+"vigod, 2021",0.148335947953988,0.104345636283367,1120,0.0521728181416834,0.228413699549049,"perinatal depression","group","cut-off score","not-cbt-based","wl","north america","some concern",2,0,1,37,40,77
+"vitriol, 2009",0.562158159881671,0.10620714969181,1121,0.0479149456582045,0.218894827847084,"other target groups","individual","diagnosis","not-cbt-based","cau","other region","some concern",2,0,1,44,43,87
+"warmerdam, 2008",0.486812732700534,0.0353247638729327,1124,0.0237089418037035,0.153977082072962,"adults","guided self-help","cut-off score","cbt-based","wl","europe","low",4,1,1,88,87,175
+"watkins, 2012",0.479458350122665,0.0713512910624513,1126,0.0620400620903727,0.249078425581929,"adults","other formats","diagnosis","not-cbt-based","cau","europe","low",4,1,1,33,37,70
+"watt, 2000",1.54564830861569,0.384202176195115,1132,0.249848476500083,0.499848453533751,"older adults","group","cut-off score","not-cbt-based","other ctr","north america","some concern",1,0,1,9,9,18
+"weissman, 1979",0.882919417239354,0.36212454205677,1136,0.181062271028385,0.425514125533319,"adults","individual","diagnosis","not-cbt-based","other ctr","north america","some concern",1,0,1,17,17,34
+"westerhof, 2019",-0.0486408825828642,0.238508306205031,1137,0.161320538298298,0.401647280954692,"adults","guided self-help","cut-off score","not-cbt-based","wl","europe","low",4,1,1,13,12,25
+"wickberg, 1996",1.33426168614639,0.45594532639052,1139,0.22797266319526,0.477464829275686,"perinatal depression","individual","diagnosis","not-cbt-based","cau","europe","some concern",1,0,1,15,15,30
+"wiersma, 2014",0.472241414655188,0.058263752307621,1140,0.0399419762001176,0.199854887856458,"adults","individual","diagnosis","not-cbt-based","cau","europe","low",4,1,1,51,53,104
+"wiklund, 2010",0.815294020815897,0.17412769131676,1144,0.0870638456583802,0.295065832753269,"perinatal depression","individual","cut-off score","cbt-based","cau","europe","some concern",1,0,1,33,33,66
+"williams, 2000",0.0721695828170784,0.0414680493415908,1145,0.0211215489244043,0.145332545991613,"older adults","individual","diagnosis","cbt-based","other ctr","north america","low",4,1,1,113,113,226
+"williams, 2013a",0.878955359804159,0.138501038813442,1148,0.10627805081046,0.326003145399641,"adults","guided self-help","diagnosis","cbt-based","wl","australia","low",4,1,1,20,22,42
+"williams, 2013b",0.30435889312323,0.0280446502166397,1152,0.0143289864871375,0.119703744666311,"adults","guided self-help","cut-off score","cbt-based","cau","europe","some concern",3,0,1,141,140,281
+"williams, 2018",0.660875958603088,0.0612352056094763,1154,0.0409535008019088,0.202369713153695,"adults","group","cut-off score","cbt-based","wl","europe","low",4,1,1,48,56,104
+"wilson, 1983",1.9148063045682,0.448734618301357,1156,0.456680334126301,0.675781276839112,"adults","individual","cut-off score","cbt-based","wl","australia","some concern",1,0,1,8,9,17
+"wollersheim, 1991",0.238727091467702,0.356632388646778,1160,0.25108208775434,0.50108091936766,"adults","group","diagnosis","not-cbt-based","wl","north america","some concern",1,0,1,8,8,16
+"wong, 2008a",0.740583073369718,0.0265598758138742,1175,0.0132799379069371,0.115238612916579,"adults","group","cut-off score","cbt-based","wl","east asia","some concern",3,0,1,163,159,322
+"wong, 2008b",0.75891536764192,0.0983275898951596,1176,0.0491637949475798,0.22172910261754,"adults","group","diagnosis","cbt-based","wl","east asia","some concern",2,0,1,48,40,88
+"wong, 2018",0.192512298517246,0.034794178066717,1177,0.0173970890333585,0.131898025130623,"adults","group","subclinical depression","cbt-based","cau","east asia","low",4,1,1,115,116,231
+"wright, 2005",1.09813316933502,0.193580032491114,1178,0.162051314326473,0.402555976637378,"adults","guided self-help","diagnosis","cbt-based","wl","north america","some concern",1,0,1,NA,NA,NA
+"wuthrich, 2013",0.841451281133911,0.106778947637741,1182,0.0715489913908482,0.267486432162172,"older adults","group","diagnosis","cbt-based","wl","australia","some concern",3,0,1,27,35,62
+"wuthrich, 2016",0.572680823979082,0.0525390404301287,1187,0.0332280319412606,0.182285577984822,"older adults","group","diagnosis","cbt-based","other ctr","australia","low",4,1,1,76,53,129
+"xie, 2019",0.684372766023884,0.116163805026752,1190,0.0580819025133761,0.241001872427116,"older adults","group","cut-off score","cbt-based","cau","east asia","some concern",2,0,1,37,36,73
+"yang, 2018",0.795589752903082,0.12931278327378,1191,0.06465639163689,0.254276211307488,"student population","group","diagnosis","not-cbt-based","cau","east asia","some concern",2,0,1,32,35,67
+"yeung, 2017",0.606455549420687,0.137651772965346,1192,0.068825886482673,0.262346881976274,"adults","guided self-help","cut-off score","cbt-based","wl","east asia","some concern",3,0,1,NA,NA,NA
+"yuan, 2020",0.173402444848873,0.176486234036206,1193,0.0844031177969932,0.290522146827042,"older adults","individual","cut-off score","cbt-based","cau","east asia","low",4,1,1,24,26,50
+"zemastani, 2020",2.61819522951659,0.291814298834604,1195,0.145907149417302,0.381977943626725,"general medical","group","diagnosis","cbt-based","other ctr","other region","some concern",2,0,1,23,29,52
+"zemestani, 2016",1.42709784670723,0.253863047843319,1196,0.172289651576531,0.415077886156961,"student population","group","diagnosis","cbt-based","wl","other region","some concern",3,0,1,15,15,30
+"zemestani, 2019",1.17511792255129,0.248439940514566,1198,0.124219970257283,0.352448535615178,"perinatal depression","group","diagnosis","cbt-based","cau","other region","low",4,1,1,19,19,38
+"zhao, 2019",0.433341215631522,0.0206589649187005,1199,0.0121921469770236,0.110418055484706,"perinatal depression","group","subclinical depression","not-cbt-based","cau","east asia","some concern",2,0,1,167,167,334
+"zhao, 2021",0.314562074313342,0.0445042869218694,1202,0.0222521434609347,0.149171523626109,"perinatal depression","individual","cut-off score","not-cbt-based","cau","east asia","some concern",2,0,1,91,91,182
+"zu, 2014",0.404205150684496,0.179974615914491,1203,0.155254890289285,0.394023971719088,"adults","individual","diagnosis","cbt-based","cau","east asia","high",0,0,0,12,16,28

@@ -1,0 +1,18 @@
+# Ringraziamenti{.unlisted .unnumbered}
+
+Desidero innanzitutto esprimere la mia più profonda gratitudine al Prof. Gianmarco Altoè, per la costante disponibilità, il prezioso supporto e l’investimento che ha dedicato alla mia formazione. Grazie alla sua guida ho avuto l’opportunità di crescere non solo come studente, ma anche come giovane scienziato. È stato fondamentale nel farmi appassionare alla statistica e alla metodologia nelle scienze psicologiche, e nel trasmettermi una visione della scienza – in particolare quella psicologica – che sento di condividere pienamente.
+
+Un sentito ringraziamento va anche al Dott. Filippo Gambarota, per il sostegno, la disponibilità e l’aiuto concreto offerto durante tutto il percorso di stesura, con particolare riferimento all’applicazione del metodo PIMMA. La sua competenza e chiarezza nell’insegnamento della statistica applicata alla psicologia hanno rappresentato un punto di riferimento e di apprendimento fondamentale per il mio lavoro.
+
+Ringrazio inoltre tutto il team di *Psicostat*, una comunità di ricerca stimolante e rivoluzionaria, impegnata nel migliorare la credibilità della scienza psicologica attraverso la promozione della qualità e della trasparenza nella ricerca. Entrare in contatto con questo gruppo ha rappresentato per me un’importante occasione di crescita, scientifica e personale.
+
+
+
+```{=latex}
+\clearpage
+{
+\hypersetup{linkcolor=blue}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+```

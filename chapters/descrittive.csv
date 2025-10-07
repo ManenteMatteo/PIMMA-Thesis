@@ -1,0 +1,125 @@
+study,es_id,yi,vi,target_group,format,diagnosis,type,control,rob_exclude_worst,rob_include_best
+"aagaard, 2017",1,0,0.05357142857142861,adults,group,diagnosis,cbt-based,cau,1,0
+"allart van dam, 2003",2,0.569637930381429,0.04239850255515001,adults,group,subclinical depression,cbt-based,cau,1,0
+"andersson, 2005",3,0.8708700823417312,0.026384846933727397,adults,guided self-help,cut-off score,cbt-based,other ctr,1,0
+"arjadi, 2018",4,0.388644587098011,0.0130252689191716,adults,guided self-help,diagnosis,cbt-based,other ctr,1,1
+"barber, 2012",5,0.0989335546931013,0.06325625003966111,adults,individual,diagnosis,not-cbt-based,other ctr,1,0
+"barnhofer, 2009",6,0.915046805453178,0.14340484946045698,adults,group,diagnosis,cbt-based,cau,1,1
+"barrett, 2001",7,0.15191621510762754,0.03834766886521331,adults,individual,diagnosis,cbt-based,other ctr,1,1
+"baumgartner, 2021",8,0.29860912776014753,0.0043840875520771575,adults,guided self-help,cut-off score,cbt-based,wl,1,1
+"bohlmeijer, 2011",9,0.59646942415914,0.045080221351935394,adults,group,cut-off score,cbt-based,wl,1,1
+"bolton, 2003",10,1.31674927974785,0.017159627895840402,adults,group,diagnosis,not-cbt-based,cau,1,0
+"buntrock, 2015",11,0.658398329665977,0.010388297388171399,adults,guided self-help,subclinical depression,not-cbt-based,cau,1,1
+"carlbring, 2013",12,0.7416420998991752,0.026791579240359034,adults,guided self-help,diagnosis,cbt-based,wl,1,1
+"carr, 2017",13,0.33612759856461216,0.01650798850214661,adults,group,diagnosis,cbt-based,cau,1,0
+"carta, 2012",14,0.248029997930288,0.06323760537487579,adults,individual,diagnosis,cbt-based,cau,1,0
+"casanas, 2012",15,0.287004412196639,0.017511401045642902,adults,group,diagnosis,cbt-based,cau,1,1
+"castonguay, 2004",16,1.7425132249967048,0.13479351833706485,adults,individual,diagnosis,cbt-based,wl,1,0
+"chiang, 2015",17,4.088150989707518,0.10288956854134444,adults,group,diagnosis,cbt-based,cau,1,0
+"chowdhary, 2016",18,0.450417976848539,0.07582264718068019,adults,individual,cut-off score,cbt-based,cau,1,0
+"d'elia, 2020",19,1.44998634184853,0.34016822320825396,adults,group,diagnosis,cbt-based,other ctr,1,1
+"derubeis, 2005",20,0.45487912040006906,0.0476499925485383,adults,individual,diagnosis,cbt-based,other ctr,1,0
+"dimidjian, 2006",21,0.7888684269510331,0.013918333278903669,adults,individual,diagnosis,cbt-based,other ctr,1,0
+"ebert, 2018",22,0.5210527328565117,0.006798553597371865,adults,guided self-help,subclinical depression,not-cbt-based,wl,1,1
+"ekers, 2011",23,1.1517959104284201,0.126166370756942,adults,individual,diagnosis,cbt-based,wl,1,1
+"embling, 2002",24,2.47168963108425,0.18912999847820902,adults,group,diagnosis,cbt-based,wl,1,0
+"euteneuer, 2017",25,0.7377264345713399,0.03355433234543133,adults,individual,diagnosis,cbt-based,wl,1,0
+"fledderus, 2012",26,0.8113839343762914,0.00863396992668141,adults,guided self-help,cut-off score,cbt-based,wl,1,0
+"flygare, 2020",27,0.22896064835004362,0.02696412582305871,adults,guided self-help,cut-off score,cbt-based,other ctr,1,1
+"fonagy, 2015",28,0.3288072349126904,0.020980213535330052,adults,individual,diagnosis,not-cbt-based,cau,1,1
+"forand, 2018",29,1.5757003396000684,0.035063510559424305,adults,guided self-help,cut-off score,cbt-based,wl,1,0
+"greenberg, 2018",30,1.0782236339576838,0.08393665177129359,adults,group,cut-off score,cbt-based,wl,1,0
+"hagen, 2017",31,2.46768987403917,0.18398882525234306,adults,individual,diagnosis,cbt-based,wl,1,0
+"hallgren, 2015",32,0.320679855219394,0.008276391362095148,adults,guided self-help,cut-off score,cbt-based,cau,1,0
+"harley, 2008",33,0.8404037477995215,0.11594747261532697,adults,group,diagnosis,cbt-based,wl,1,0
+"hayman, 1980",34,0.47153027275484,0.15004550034636893,adults,group,cut-off score,not-cbt-based,wl,1,0
+"he, 2019",35,0.431214238658431,0.061823954113043186,adults,individual,diagnosis,cbt-based,other ctr,1,0
+"hegerl, 2010",36,0.924032755640415,0.11203111290407103,adults,group,diagnosis,cbt-based,other ctr,1,1
+"hemanny, 2019",37,1.2782153237581448,0.02375553475378125,adults,individual,diagnosis,cbt-based,cau,1,0
+"hoifodt, 2013",38,0.7166066441791219,0.020199189890803198,adults,guided self-help,cut-off score,cbt-based,wl,1,0
+"horrell, 2014",39,0.509807210358558,0.0108475860120116,adults,group,cut-off score,cbt-based,wl,1,1
+"hsiao, 2014",40,-0.551585853640786,0.0561534368640666,adults,group,subclinical depression,not-cbt-based,cau,1,1
+"jarrett, 1999",41,0.5796381502032556,0.028979086528730175,adults,individual,diagnosis,cbt-based,other ctr,1,0
+"jelinek, 2016",42,0.4483181426098812,0.03425264923685971,adults,group,diagnosis,cbt-based,other ctr,1,0
+"johansson, 2012a",43,0.9631099863168298,0.01622320615203227,adults,guided self-help,diagnosis,not-cbt-based,other ctr,1,1
+"johansson, 2012b",44,0.6855159597525097,0.01439287529874768,adults,guided self-help,diagnosis,cbt-based,other ctr,1,0
+"johansson, 2019",45,1.5617158513039164,0.048665798136284154,adults,guided self-help,diagnosis,cbt-based,wl,1,1
+"jordans, 2019",46,0.409256807303355,0.0340401889125088,adults,individual,diagnosis,cbt-based,cau,1,1
+"keeley, 2016",47,0.40168978547575296,0.024348234215694195,adults,individual,diagnosis,not-cbt-based,cau,1,1
+"kenter, 2016",48,-0.0731200460642744,0.0148817320970349,adults,guided self-help,diagnosis,cbt-based,wl,1,1
+"kessler, 2009",49,0.606813243520199,0.0200419202154362,adults,guided self-help,diagnosis,cbt-based,wl,1,1
+"kivi, 2014",50,-0.15705752940781,0.0658587693675196,adults,guided self-help,diagnosis,cbt-based,cau,1,0
+"korrelboom, 2012",51,0.786231275568555,0.07079016726637828,adults,group,diagnosis,not-cbt-based,wl,1,1
+"kramer, 2021",52,0.518193516109849,0.030416514739482998,adults,guided self-help,cut-off score,cbt-based,wl,1,0
+"lamers, 2015",53,0.343796186684115,0.034999008602482506,adults,guided self-help,cut-off score,not-cbt-based,wl,1,1
+"lappalainen, 2015",54,0.624742320898388,0.11091357474382603,adults,guided self-help,diagnosis,cbt-based,wl,1,0
+"lee, 2021",55,0.4592168472308937,0.05545104981140355,adults,group,diagnosis,cbt-based,cau,1,1
+"lemma, 2013",56,-0.1916864483571609,0.12574586808563917,adults,other formats,cut-off score,not-cbt-based,other ctr,1,0
+"liu, 2009",57,0.292901773785373,0.07788740066138813,adults,guided self-help,cut-off score,cbt-based,wl,1,0
+"lovell, 2008",58,0.18286101549456404,0.04933257186689557,adults,individual,cut-off score,cbt-based,cau,1,0
+"lynch, 1997",59,0.929958266602528,0.185849300699301,adults,other formats,subclinical depression,cbt-based,cau,1,0
+"lynch, 2019",60,0.4413662506710904,0.01246525914821095,adults,other formats,diagnosis,not-cbt-based,cau,1,1
+"maclean, 2020",61,0.170454545454545,0.043174548844114,adults,guided self-help,cut-off score,not-cbt-based,other ctr,1,0
+"macpherson, 2013",62,0.22811112432643244,0.0058807453754971825,adults,individual,cut-off score,not-cbt-based,cau,1,1
+"mahmoodi, 2021",63,1.234282091941687,0.05814172824567465,adults,individual,cut-off score,cbt-based,wl,1,0
+"maina, 2005",64,1.1205135170871565,0.11712426553491738,adults,individual,diagnosis,not-cbt-based,wl,1,0
+"matsuzaka, 2017",65,0.016308117722224392,0.025331844477017158,adults,individual,diagnosis,not-cbt-based,cau,1,1
+"mcclay, 2015",66,0.845921709242889,0.20090587827521303,adults,group,cut-off score,cbt-based,wl,1,0
+"miller, 2002",67,0.449695972054195,0.136893621832674,adults,other formats,cut-off score,not-cbt-based,cau,1,0
+"mukhtar, 2011",68,4.8272850618071494,0.139943233715546,adults,group,diagnosis,cbt-based,wl,1,0
+"mynors-wallis, 1995",69,0.6762357095508023,0.03861199108721809,adults,individual,diagnosis,cbt-based,other ctr,1,0
+"naeem, 2013",70,1.11569300454167,0.025303667086057503,adults,guided self-help,diagnosis,cbt-based,cau,1,1
+"naeem, 2015",71,0.859565258856182,0.031925447348952904,adults,other formats,diagnosis,cbt-based,cau,1,1
+"nakagawa, 2017",72,0.38369901857718486,0.017188717575388163,adults,individual,diagnosis,cbt-based,cau,1,1
+"nasrin, 2017",73,1.74233729326965,0.15555643388803297,adults,individual,diagnosis,cbt-based,wl,1,0
+"newby, 2014",74,0.0985759894185636,0.100126439499038,adults,individual,cut-off score,cbt-based,cau,1,0
+"nezu, 1986",75,1.5446891177822242,0.09965662896921836,adults,group,diagnosis,cbt-based,wl,1,0
+"nezu, 1989",76,2.044173623345245,0.06535894054568901,adults,group,diagnosis,cbt-based,wl,1,0
+"nyström, 2017",77,0.8159700472962986,0.020042260874562873,adults,guided self-help,diagnosis,cbt-based,wl,1,1
+"oehler, 2020",78,0.18385847153484533,0.007642033695338377,adults,guided self-help,diagnosis,cbt-based,other ctr,1,0
+"omidi, 2013",79,1.581867505982291,0.044046787519950885,adults,group,diagnosis,cbt-based,cau,1,0
+"patel, 2017",80,0.517914162023191,0.008873853273197192,adults,individual,cut-off score,cbt-based,cau,1,1
+"perini, 2009",81,0.5561318211207501,0.033053048678811765,adults,guided self-help,diagnosis,cbt-based,wl,1,0
+"pihlaja, 2020",82,0.471482712852266,0.041128734021464185,adults,guided self-help,diagnosis,cbt-based,cau,1,0
+"pots, 2014",83,0.492982451150006,0.027304145611059805,adults,group,cut-off score,cbt-based,wl,1,1
+"pots, 2016",84,0.558164497436362,0.024619461082253807,adults,guided self-help,cut-off score,cbt-based,wl,1,1
+"psarraki, 2021",85,0.537787673762831,0.03352462965590195,adults,other formats,diagnosis,not-cbt-based,cau,1,0
+"rehm, 1981",86,0.4826059036853736,0.016457705227919735,adults,group,cut-off score,not-cbt-based,wl,1,0
+"reins, 2019",87,0.30051613818824385,0.010295188657613372,adults,guided self-help,diagnosis,not-cbt-based,other ctr,1,1
+"richards, 2015",88,0.645775684004155,0.0224043552399477,adults,guided self-help,cut-off score,cbt-based,wl,1,0
+"ritvo, 2021",89,0.5664929678919476,0.0464045495852393,adults,guided self-help,diagnosis,cbt-based,cau,1,1
+"rizvi, 2015",90,0.296894416161054,0.147500261571634,adults,individual,diagnosis,cbt-based,wl,1,0
+"rohricht, 2013",91,0.9204737210108971,0.19406870114396194,adults,group,diagnosis,not-cbt-based,wl,1,1
+"ross, 1985",92,1.4775436552479644,0.06265219906689258,adults,other formats,diagnosis,cbt-based,wl,1,0
+"rosso, 2017",93,0.8338537996092871,0.018889611263769087,adults,guided self-help,diagnosis,cbt-based,other ctr,1,0
+"rude, 1986",94,1.0279,0.10673289,adults,group,cut-off score,not-cbt-based,wl,1,0
+"ruwaard, 2009",95,0.7292643961968719,0.02954116344413616,adults,guided self-help,cut-off score,cbt-based,wl,1,0
+"ruzickova, 2021",96,0.64258107804303,0.0619301038062284,adults,other formats,cut-off score,cbt-based,cau,1,0
+"schulberg, 1996",97,0.43724198796222397,0.022143224920571702,adults,individual,diagnosis,not-cbt-based,cau,1,0
+"schuster, 2017",98,0.8468053749401628,0.0951898195941921,adults,group,cut-off score,not-cbt-based,wl,1,0
+"scott, 1997",99,0.47280204236525386,0.060752959462200246,adults,individual,diagnosis,cbt-based,cau,1,0
+"simpson, 2003",100,-0.0576173652526192,0.030782150332032802,adults,individual,diagnosis,not-cbt-based,cau,1,1
+"songprakun, 2012",101,0.6028,0.07540516000000001,adults,guided self-help,diagnosis,cbt-based,cau,1,1
+"sreevani, 2013",102,0.915185875121748,0.148079047577991,adults,group,diagnosis,not-cbt-based,cau,1,0
+"stiles-shields, 2018",103,1.16993027324877,0.131152920776527,adults,guided self-help,cut-off score,cbt-based,wl,1,0
+"strauss, 2012",104,1.8258751526133503,0.20601517348879098,adults,group,diagnosis,cbt-based,cau,1,0
+"sugg, 2018",105,0.644188982319232,0.06701270309353272,adults,individual,diagnosis,not-cbt-based,cau,1,1
+"szumska, 2020",106,1.42290066444887,0.263514140009272,adults,group,diagnosis,cbt-based,wl,1,0
+"teasdale, 1984",107,1.4637061739557,0.222405565192934,adults,individual,diagnosis,cbt-based,cau,1,0
+"titov, 2010",108,0.9730082760575429,0.006755917480493906,adults,guided self-help,diagnosis,cbt-based,wl,1,0
+"tong, 2019",109,0.625159267325384,0.047737987499891193,adults,group,diagnosis,cbt-based,wl,1,0
+"town, 2017",110,1.178393492076984,0.04801137363773781,adults,individual,diagnosis,not-cbt-based,cau,1,1
+"tulbure, 2018",111,0.8431370729135471,0.021196203950888406,adults,guided self-help,diagnosis,cbt-based,wl,1,0
+"turner, 1979",112,0.1034949364794055,0.034136304700416883,adults,individual,cut-off score,cbt-based,other ctr,1,0
+"tyson, 1987",113,-0.13751116759106574,0.030416523596114055,adults,group,cut-off score,not-cbt-based,other ctr,1,0
+"vernmark, 2010",114,0.656813962375585,0.018637876023008735,adults,guided self-help,diagnosis,cbt-based,wl,1,1
+"warmerdam, 2008",115,0.4868127327005342,0.011775009469602193,adults,guided self-help,cut-off score,cbt-based,wl,1,1
+"weissman, 1979",116,0.882919417239354,0.181062271028385,adults,individual,diagnosis,not-cbt-based,other ctr,1,0
+"wiersma, 2014",117,0.548171553720297,0.03994197620011761,adults,individual,diagnosis,not-cbt-based,cau,1,1
+"williams, 2013a",118,0.946716570244286,0.03551364204810922,adults,guided self-help,diagnosis,cbt-based,wl,1,1
+"williams, 2013b",119,0.229140576844467,0.014328986487137502,adults,guided self-help,cut-off score,cbt-based,cau,1,0
+"williams, 2018",120,0.6608759586030881,0.020411769462608365,adults,group,cut-off score,cbt-based,wl,1,1
+"wong, 2008a",121,0.740583073369718,0.013279937906937099,adults,group,cut-off score,cbt-based,wl,1,0
+"wong, 2008b",122,0.75891536764192,0.04916379494757981,adults,group,diagnosis,cbt-based,wl,1,0
+"wong, 2018",123,0.192512298517246,0.017397089033358504,adults,group,subclinical depression,cbt-based,cau,1,1
+"yeung, 2017",124,0.606455549420687,0.06882588648267292,adults,guided self-help,cut-off score,cbt-based,wl,1,0

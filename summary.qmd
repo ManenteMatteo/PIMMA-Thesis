@@ -1,0 +1,17 @@
+# Summary {.unnumbered}
+
+La presente tesi si inserisce nel contesto della crisi di credibilità della ricerca psicologica, proponendo l’utilizzo della *Multiverse Analysis* e, in particolare, del metodo inferenziale PIMA (*Post-selection Inference in Multiverse Analysis*), come risposta metodologica ai problemi di replicabilità dovuti a *selective reporting* e arbitrarietà analitica presenti oggi in letteratura. La tesi si compone di quattro capitoli principali, ciascuno dedicato a un aspetto specifico del tema affrontato.
+
+Nel @sec-Cap.1 vengono introdotti il concetto di crisi di replicabilità, le sue cause principali (tra cui il *p-hacking*, *Questionable Research Pratices* e flessbilità in fase di analisi dei dati), e le principali proposte emerse in ambito *Open Science* per contrastarla.
+
+Nel @sec-Cap.2 vengono presentati i fondamenti teorici e metodologici della meta-analisi, con particolare attenzione ai modelli *fixed-effect* e *random-effects*, agli indici di *effect size* (coefficiente di correlazione di Pearson, *d* di Cohen e *Odds Ratio*) e di eterogeneità (*Q*, $\tau$, $I^2$) e ai limiti delle meta-analisi tradizionali. Viene inoltre discusso il problema del *publication bias* e viene presentato un metodo per la sua correzione.
+
+Nel @sec-Cap.3 si introduce il concetto di *multiverse* e i principali approcci per analizzarlo (esplorativi e inferenziali), con un approfondimento sul metodo PIMA come strumento per effettuare inferenze robuste in presenza di molteplici specificazioni analitiche. Viene inoltre discussa l’applicabilità di questi metodi alle meta-analisi.
+
+Infine, nel @sec-Cap.4 viene presentata un'applicazione del metodo PIMA ad una *Multiverse Meta-Analysis* (PIMMA, *Post-selection Inference in Multiverse Meta-Analysis*) sull’efficacia delle psicoterapie per la depressione. In tale esempio sono state generate oltre 1100 specificazioni meta-analitiche, ciascuna sottoposta a inferenza statistica tramite PIMA. I risultati confermano la robustezza dell’effetto stimato relativo all'efficacia della psicoterapia per la depressione in una popolazione adulta. Evidenziano, inoltre, l’importanza delle scelte analitiche, e indicano l’efficacia del metodo PIMMA nel mantenere sotto controllo il rischio di incorrere in falsi positivi al di sopra della soglia standard ($\alpha$ = .05).
+
+In sintesi, questo lavoro mostra come la PIMMA possa rappresentare un importante avanzamento per la pratica meta-analitica e per l'approccio *multiverse*, contribuendo allo sviluppo di una scienza psicologica più trasparente, solida e replicabile.
+
+\vspace{1cm}
+
+La seguente tesi è stata redatta interamente in *Quarto*. L'intero lavoro - compresi codici e dataset - è disponibile al seguente link: https://osf.io/zj7mt/
